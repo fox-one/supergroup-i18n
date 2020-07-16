@@ -1,0 +1,144 @@
+[InvitationMessageText]
+description = ""
+one = "你好。请使用邀请码： {{.Code}} 入群。"
+other = "你好。请使用邀请码： {{.Code}} 入群。"
+
+[WelcomeMessageTitle]
+description = ""
+one = "你好，{{.Name}}"
+other = "你好，{{.Name}}"
+
+[WelcomeMessageDescription]
+description = ""
+one = "点此阅读本群用户指引"
+other = "点此阅读本群用户指引"
+
+[GroupModeLectureMessage]
+description = ""
+one = "{{.Name}} 切换了上课模式，期间不能闲聊。"
+other = "{{.Name}} 切换了上课模式，期间不能闲聊。"
+
+[GroupModeMuteMessage]
+description = ""
+one = "{{.Name}} 切换了禁言模式，不能闲聊但是可以发红包和打赏。"
+other = "{{.Name}} 切换了禁言模式，不能闲聊但是可以发红包和打赏。"
+
+[GroupModeFreeMessage]
+description = ""
+one = "{{.Name}} 切换了闲聊模式。"
+other = "{{.Name}} 切换了闲聊模式。"
+
+[LuckycoinTitle]
+description = ""
+one = "群组红包"
+other = "群组红包"
+
+[LuckycoinDescription]
+description = ""
+one = "来自{{.Name}}"
+other = "来自{{.Name}}"
+
+[LuckycoinOpenedMessage]
+description = ""
+one = "{{.Name}}打开了你的红包"
+other = "{{.Name}}打开了你的红包"
+
+[BroadcastOnMessage]
+description = ""
+one = "广播正在进行中"
+other = "广播正在进行中"
+
+[BroadcastOffMessage]
+description = ""
+one = "广播已经结束"
+other = "广播已经结束"
+
+[AnnouncementMessage]
+description = ""
+one = "公告更新：{{.Text}}"
+other = "公告更新：{{.Text}}"
+
+[PublicJoinMessage]
+description = ""
+one = "{{.Name}} 加入了群组"
+other = "{{.Name}} 加入了群组"
+
+[JoinMessage]
+description = ""
+one = "你已经加入了群组"
+other = "你已经加入了群组"
+
+[JoinInMuteModeMessage]
+description = ""
+one = "你已经加入了群组，但是当前群组处于禁言状态，所以你不能发言。"
+other = "你已经加入了群组，但是当前群组处于禁言状态，所以你不能发言。"
+
+[JoinInstructionMessage]
+description = ""
+one = "该群组是一个私有群，点击“入群指南”了解入群要求，轻按“加入群组”加入。"
+other = "该群组是一个私有群，点击“入群指南”了解入群要求，轻按“加入群组”加入。"
+
+[JoinInstructionEntryMessage]
+description = ""
+one = "加入群组"
+other = "加入群组"
+
+[JoinGuideMessageTitle]
+description = ""
+one = "入群指南"
+other = "入群指南"
+
+[JoinGuideMessageDescription]
+description = ""
+one = "点此阅读入群指引"
+other = "点此阅读入群指引"
+
+[AdminRenewMessage]
+description = ""
+one = "{{.Name}} 已经续费了群组成员资格"
+other = "{{.Name}} 已经续费了群组成员资格"
+
+[RenewMessage]
+description = ""
+one = "你已经续费了群组成员资格"
+other = "你已经续费了群组成员资格"
+
+[MsgToLongMessage]
+description = ""
+one = "发送失败, 消息长度过长。"
+other = "发送失败, 消息长度过长。"
+
+[UnsubscribedMessage]
+description = ""
+one = "已经取消了本群的消息订阅, 无法发送/接收消息"
+other = "已经取消了本群的消息订阅, 无法发送/接收消息"
+
+[ChatRateLimitMessage]
+description = ""
+one = "发送太频繁，请稍候再发消息"
+other = "发送太频繁，请稍候再发消息"
+
+[TipMessage]
+description = ""
+one = "{{.From}}给{{.To}}打赏了{{.Amount}} {{.Symbol}}"
+other = "{{.From}}给{{.To}}打赏了{{.Amount}} {{.Symbol}}"
+
+[InvitationCodeDeliverMessage]
+description = ""
+one = "已给你派发{{.Num}}个邀请码，请在“邀请-我的邀请码”中查看"
+other = "已给你派发{{.Num}}个邀请码，请在“邀请-我的邀请码”中查看"
+
+[WritingClassCouponClaimedMessage]
+description = "写作课 500 元抵扣券发放后给用户发的消息"
+one = "你获得了一张写作课 {{.Amount}} 元优惠券，请打开“群首页 - 优惠券”查看"
+other = "你获得了一张写作课 {{.Amount}} 元优惠券，请打开“群首页 - 优惠券”查看"
+
+[RenewNotifyMessage]
+description = ""
+one = "你的群组资格将在{{.Date}}到期，请尽快续费。"
+other = "你的群组资格将在{{.Date}}到期，请尽快续费。"
+
+[BindInvitationNotifyMessage]
+description = ""
+one = "你已被邀请进入本群，请轻按“加入群组”按钮入群。"
+other = "你已被邀请进入本群，请轻按“加入群组”按钮入群。"

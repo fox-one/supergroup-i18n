@@ -1,0 +1,466 @@
+{
+  "hello": "你好",
+
+  "common": {
+    "role_admin": "管理员",
+    "role_lecturer": "讲师",
+    "role_user": "成员",
+    "vault-master": "主钱包",
+    "vault-profit": "利润钱包",
+    "vault-bonus": "分红钱包",
+    "vault-tax": "税务钱包",
+    "group_mode_free": "闲聊模式",
+    "group_mode_mute": "禁言模式",
+    "group_mode_lecture": "讲座模式",
+    "view": "查看",
+    "copy": "复制",
+    "share": "分享",
+    "ok": "好",
+    "cancel": "取消",
+    "paid": "已支付",
+    "edit": "编辑",
+    "delete": "删除",
+    "kyc_status_text_0": "未认证",
+    "kyc_status_text_1": "正在审核",
+    "kyc_status_text_2": "认证完成",
+    "kyc_status_text_error": "认证失败",
+    "scan_to_join": "扫码加入"
+  },
+
+  "badges.anniversary_1": "1周年",
+
+  "com.course_item.duration_sec": "{n}秒",
+  "com.course_item.duration_min": "{n}分钟",
+  "com.course_item.action_publish": "发布",
+  "com.course_item.action_unpublish": "取消发布",
+  "com.course_item.action_edit": "编辑",
+  "com.course_item.action_open": "设置公开访问",
+  "com.course_item.action_close": "取消公开访问",
+  "com.course_item.status_unpublished": "未发布",
+  "com.course_item.status_open": "公开访问",
+
+  "com.invited_relation_panel.invited_title": "我的邀请人",
+  "com.invited_relation_panel.delete": "删除",
+
+  "com.luckycoin_cover.hint": "{name} 发的红包",
+  "com.luckycoin_cover.open_btn": "打开",
+  "com.luckycoin_view.participants_title": "已领取 {n}/{count} 个，{m}/{amount} {symbol}",
+  "com.luckycoin_view.my_claim_title": "我领取到的红包",
+  "com.luckycoin_view.lottery_badge": "目前手气最佳",
+
+  "com.course_message_item.loading_process": "缓冲：{n}%",
+
+  "com.course_kudo_section.button_text": "赞赏讲师",
+
+  "com.course_intro_section.title": "本课程来自下面的群组",
+  "com.course_intro_section.button_text": "查看群组",
+
+  "com.invitation_share_card.inviter_prefix": "{name}邀请你加入",
+  "com.invitation_share_card.inviter_code": "邀请码",
+  "com.invitation_share_card.save_hint": "扫码查看入群指引",
+
+  "com.chat_area.empty_hint": "没有评论",
+
+  "com.member_list.age_hint": "群龄{time}天",
+  "com.member_list.expired_hint": "{time}过期",
+
+  "com.coupon_item.type_discount": "折扣优惠券",
+  "com.coupon_item.type_voucher": "直减优惠券",
+  "com.coupon_item.amount_text_discount": "{amount} 折",
+  "com.coupon_item.amount_text_discount_alt": "{amount}% Off",
+  "com.coupon_item.amount_text_voucher": "直减 {amount}",
+  "com.coupon_item.detail": "查看详情",
+  "com.coupon_item.btn": "前往使用",
+  "com.coupon_item.expired_hint": "有效期至：{time}",
+
+  "com.payment_panel.period_title": "选择购买时长",
+  "com.payment_panel.period_hint": "一次支付多年时长可能会得到优惠，详情请咨询你的推荐人。",
+  "com.payment_panel.period_label": "购买时长",
+  "com.payment_panel.period_1_year": "一年",
+  "com.payment_panel.period_2_year": "两年",
+  "com.payment_panel.period_3_year": "三年",
+  "com.payment_panel.period_5_year": "五年",
+  "com.payment_panel.period_7_year": "七年之约",
+  "com.payment_panel.estimated_hint": "加密货币价格会快速波动，请以实际支付价格为准。",
+  "com.payment_panel.select_title": "选择支付方式",
+  "com.payment_panel.pay_method_crypto": "加密货币",
+  "com.payment_panel.pay_method_wechat": "微信支付",
+  "com.payment_panel.pay_method_alipay": "支付宝",
+  "com.payment_panel.pay_method_wechat.hint": "请截图后使用<strong>微信扫码</strong>打开",
+  "com.payment_panel.pay_method_alipay.hint": "请截图后使用<strong>支付宝扫码</strong>打开",
+  "com.payment_panel.pay_crypto": "支付",
+  "com.payment_panel.pay_alipay": "支付宝",
+  "com.payment_panel.pay_wechat": "微信支付",
+  "com.payment_panel.pay_none": "支付",
+  "com.payment_panel.price_label": "价格：",
+  "com.payment_panel.price_value": "{price} {unit}",
+  "com.payment_panel.price_value_estimated": "约 {price} {unit}",
+  "com.payment_panel.kyc_dialog_title": "需要进行实名认证",
+  "com.payment_panel.kyc_dialog_text": "本服务由 Fox.ONE 提供。首次购买数字货币需要进行实名认证，你需要准备好中国大陆身份证。",
+  "com.payment_panel.kyc_dialog_btn": "前往实名认证",
+  "com.payment_panel.insufficient_asset_btn": "如果你没有 {symbol}，轻按此处购买",
+  "com.payment_panel.buy_way_sheet_hint": "由 Fox.ONE 提供的方便购买 {symbol} 的途径",
+  "com.payment_panel.buy_way_sheet_title": "选择购买方式",
+  "com.payment_panel.buy_way_sheet_item_1": "用加密货币兑换",
+  "com.payment_panel.buy_way_sheet_item_text_1": "把其他加密货币兑换成 {symbol}",
+  "com.payment_panel.buy_way_sheet_item_2": "用法定货币购买",
+  "com.payment_panel.buy_way_sheet_item_text_2": "使用人民币向其他人购买 {symbol}",
+  "com.payment_panel.use_coupon": "使用优惠券",
+  "com.payment_panel.coupons_sheet_title": "选择优惠券",
+  "com.payment_panel.get_payment_fail": "获取支付信息失败",
+  "com.payment_panel.pay_successfully": "支付成功",
+
+  "home": {
+    "announcement_dialog_title": "编辑公告",
+    "edit_announcement_btn": "编辑",
+    "welcome": "欢迎，{role} {name}",
+    "announcement": "群公告",
+    "subscribed_btn": "已订阅",
+    "unsubscribed_btn": "还没订阅",
+    "builtin_feat_title": "群功能",
+    "feat_tip": "打赏",
+    "feat_invitation": "邀请",
+    "feat_luckycoin": "发红包",
+    "feat_course": "看回放",
+    "feat_stream": "看直播",
+    "feat_coupon": "优惠券",
+    "feat_income": "奖励金",
+    "unsub_title": "取消订阅",
+    "unsub_description": "退出订阅后将不再收到大群消息，确认要取消订阅吗",
+    "unsub_ok_btn": "取消订阅",
+    "unsub_cancel_btn": "再想想"
+  },
+
+  "welcome": {
+    "title": "欢迎来到 {name}"
+  },
+
+  "guide": {
+    "title": "入群指南"
+  },
+
+  "invitations": {
+    "edit_greeting_dialog_title": "邀请语",
+    "my_poster_title": "邀请海报",
+    "permanetn_invitation_title": "我的永久邀请码",
+    "my_invitations_title": "我的邀请码",
+    "generate_posters_label": "生成邀请海报",
+    "avaiable_invitations": "剩余 {n} 个可用邀请码",
+    "used_invitations": "已邀请 {n} 人",
+    "gen_post_btn": "生成海报",
+    "title": "邀请"
+  },
+
+  "invitations_invitees": {
+    "view": "查看",
+    "user_state_paid": "已入群",
+    "user_state_unverified": "未使用",
+    "user_state_pending": "未支付",
+    "empty_hint": "你还没有邀请他人入群",
+    "title": "我邀请的人"
+  },
+
+  "invitations_codes": {
+    "empty_hint": "你还没有邀请码",
+    "title": "我的邀请码"
+  },
+
+  "invitations_share": {
+    "hint": "截图或长按图片保存到相册",
+    "general_share_summary": "加入本群，共同成长",
+    "title": "分享"
+  },
+
+  "invitation_public": {
+    "empty_hint": "当前没有活跃的群成员提供邀请码。",
+    "welcome": "来自群成员的邀请码",
+    "welcome_desc": "为你展示最近活跃的群成员的邀请码。建议你在使用之前先联系对方，如果有问题，也方便寻求对方的帮助。",
+    "code_label": "邀请码",
+    "active_at_label": "最后在线",
+    "title": "推荐邀请码"
+  },
+
+  "admin_vaults": {
+    "vaults_title": "钱包",
+    "assets_title": "资产",
+    "vault_hint": "你只能从利润钱包中提现",
+    "title": "资产管理"
+  },
+
+  "admin_vault_withdrawal": {
+    "label_1": "提现",
+    "label_2": "从钱包",
+    "label_3": "发送到",
+    "withdraw_hint": "所选的资产会全部发送到指定管理员钱包",
+    "pin_label": "6位数字 PIN",
+    "withdraw_btn": "提现",
+    "title": "提现"
+  },
+
+  "admin": {
+    "title": "管理员面板",
+    "image_message_enabled_label": "允许发图片",
+    "audio_message_enabled_label": "允许发语音",
+    "video_message_enabled_label": "允许发视频",
+    "data_message_enabled_label": "允许发文件",
+    "sticker_message_enabled_label": "允许发表情",
+    "contact_message_enabled_label": "允许发名片",
+    "link_message_enabled_label": "允许发链接",
+    "luckycoin_enabled_label": "启用红包",
+    "tip_enabled_label": "启用打赏",
+    "invitation_enabled_label": "启用邀请",
+    "course_enabled_label": "启用回放",
+    "stream_enabled_label": "启用直播",
+    "stream_title": "直播",
+    "stream_settings": "直播设置",
+    "luckycoin_title": "红包",
+    "luckycoin_min_value_label": "红包最小金额",
+    "luckycoin_min_value_value": "{n} 美元",
+    "luckycoin_max_count_label": "红包最大数量",
+    "luckycoin_max_count_value": "{n} 个",
+    "tip_title": "打赏",
+    "tip_min_value_label": "打赏最小金额",
+    "tip_min_value_value": "{n} 美元",
+    "invitation_title": "邀请",
+    "course_title": "回放",
+    "vaults_label": "资产管理",
+    "group_mode_label": "群聊模式",
+    "group_mode_chitchat": "闲聊模式",
+    "group_mode_mute": "禁言模式",
+    "group_mode_lecture": "上课模式",
+    "group_mode_chitchat_text": "每个人都可以发言，除非被拉黑了",
+    "group_mode_mute_text": "演讲者可以发言，其他人可以打赏或者发红包",
+    "group_mode_lecture_text": "只有演讲者可以发言",
+    "chat_title": "群聊",
+    "chat_rate_limit_label": "消息频率",
+    "chat_rate_limit_value": "{n}条/每分钟",
+    "save_btn": "保存",
+    "stat_title": "用户统计",
+    "stat_member_count_paid": "支付用户",
+    "stat_member_count_pending": "待支付用户",
+    "stat_member_count_unverified": "待验证用户"
+  },
+
+  "tip_rank": {
+    "title": "打赏排行榜"
+  },
+
+  "tip_send": {
+    "title": "打赏",
+    "amount_placeholder": "打赏金额",
+    "users_title": "打赏给谁？",
+    "send_btn": "支付打赏",
+    "min_amount_hint": "金额不得低于 {min} {symbol}",
+    "view_rank_btn": "查看排行榜"
+  },
+
+  "luckycoin": {
+    "title": "红包"
+  },
+
+  "luckycoin_pack": {
+    "title": "准备红包",
+    "amount_placeholder": "准备发多少",
+    "mode_random_title": "随机",
+    "mode_random_description": "红包将会以随机的形式分发",
+    "mode_ideal_title": "平均",
+    "mode_ideal_description": "红包将会平均分发给领取者",
+    "mode_contribution_title": "贡献值",
+    "mode_contribution_description": "邀请贡献值高的人将获得更多的红包",
+    "shares_hint": "最多不能超过 {max} 人",
+    "shares_placeholder": "发给多少人",
+    "greeting_placeholder": "祝福语",
+    "greeting_default": "沧海桑田，唯有比特币长久相伴。",
+    "min_amount_hint": "金额不得低于 {min} {symbol}",
+    "send_btn": "发红包"
+  },
+
+  "course_detail": {
+    "title": "课程回放"
+  },
+
+  "course_index": {
+    "title": "课程",
+    "filter_all_speakers": "所有讲师",
+    "filter_all_tags": "所有标签",
+    "search_placeholder": "搜索课程标题或描述",
+    "empty_hint": "当前没有课程"
+  },
+
+  "member_index": {
+    "tab_ops": "管理员和讲师",
+    "tab_search": "搜索成员",
+    "tab_member": "成员列表",
+    "admin_title": "管理员",
+    "lecturer_title": "讲师",
+    "search_placeholder": "搜索名字或者 ID",
+    "title": "群成员"
+  },
+
+  "member": {
+    "talk_btn": "聊聊",
+    "tip_btn": "打赏",
+    "block_btn": "屏蔽",
+    "unblock_btn": "解除屏蔽",
+    "kick_btn": "踢出群",
+    "set_role_btn": "设置身份",
+    "state_blocked": "已屏蔽",
+    "state_paid": "已入群",
+    "state_pending": "未支付",
+    "state_unverified": "尚未入群",
+    "state_subscribed": "已订阅",
+    "state_unsubscribed": "未订阅",
+    "label_joined": "加入时间",
+    "label_expire": "到期时间",
+    "label_role": "权限",
+    "label_state": "用户状态",
+    "value_age": "群龄{time}天",
+    "title": "成员信息"
+  },
+
+  "me": {
+    "badge_title": "徽章",
+    "verification_label": "实名认证状态",
+    "expired_at_title": "付费有效期至 {date}",
+    "edit_profile_dialog_title": "编辑个人信息",
+    "edit_profile_btn": "编辑个人信息",
+    "label_group_nickname": "群昵称",
+    "label_group_bio": "群签名",
+    "renew_btn": "续费",
+    "title": "我"
+  },
+
+  "pay": {
+    "title": "入群申请",
+    "pay_and_join": "加入本群",
+    "welcome": "欢迎来到本群",
+    "welcome_desc": "你需要完成以下步骤才能加入群组。购买群组服务属于虚拟商品，不会退还购买费用。",
+    "welcome_desc_alt": "这是一个公开群，轻触按钮进入群组",
+    "join_btn": "进入群组",
+    "invitation_btn": "使用邀请码",
+    "invite_code_title": "请先输入邀请码",
+    "invite_title": "入群邀请码",
+    "invite_placeholder": "请填写入群邀请码",
+    "invite_desc": "请向你的邀请者索要邀请码，或者轻按此处查看群友提供的邀请码。",
+    "xuexi_payment_title": "前往“学习”收银台支付",
+    "xuexi_payment_desc": "请在“学习”收银台支付订单，即可加入本群。",
+    "method_crypto": "使用数字货币支付",
+    "method_crypto_desc": "本群是一个收费群，需要付费加入",
+    "select_assets": "选择数字货币",
+    "success_toast": "你已加入本群",
+    "method_coupon": "使用兑换码",
+    "coupon_placeholder": "兑换码",
+    "invitation_code_unavailable": "不正确的邀请码",
+    "correct_coupon_code_toast": "已经兑换成功",
+    "incorrect_coupon_code_toast": "不正确的兑换码",
+    "paid_confirm_dialog_title": "已经支付了么？",
+    "paid_confirm_dialog_text": "如果你已经支付，请点击已支付。我们可能需要一分钟来处理你的订单。"
+  },
+
+  "kyc": {
+    "prepare_title": "准备开始认证",
+    "qrcode_text": "如果认证无法进行，你也可以截屏二维码，然后在微信“扫一扫”中打开完成认证。",
+    "qrcode_text_alt": "<strong>如果你使用锤子或者坚果手机，建议插上电源线，在支付宝中扫码进行实名验证。</strong>",
+    "hint_init_line_1": "根据中华人民共和国相关规定，继续使用本服务，请进行人脸核身实名认证。请做好如下准备进行实名认证：",
+    "hint_init_line_2": "1. 中华人民共和国大陆居民身份证",
+    "hint_init_line_3": "2. 确保摄像头、麦克风权限处于开启状态",
+    "hint_pending_line_1": "审核由第三方进行，可能需要 15 分钟才能完成。",
+    "hint_pending_line_2": "如果你还没有提交认证材料，请重新提交。",
+    "hint_error_line_1": "失败原因：{reason}",
+    "hint_error_line_2": "错误码：{code}",
+    "result_line_1": "姓名：{name}",
+    "result_line_2": "身份证号：{id}",
+    "notice_title": "实名认证须知",
+    "notice_line_1": "目前只支持中国大陆居民完成实名认证。",
+    "notice_line_2": "实名认证需要访问手机摄像头、麦克风，请确保这两个权限处于开启状态。",
+    "notice_line_3": "实名认证使用第三方服务（如FaceID）完成，你的个人信息仅用于实名认证。",
+    "notice_line_4": "你的个人信息会被加密妥善处理，我们不会向其它第三方泄漏、出售你的个人信息。",
+    "notice_line_5": "<strong>如果你使用锤子或者坚果手机，建议截屏实名验证的二维码，然后插上电源线，在支付宝中扫码进行实名验证。</strong>",
+    "button_label_0": "开始认证",
+    "button_label_1": "重新提交",
+    "button_label_2": "返回",
+    "button_label_error": "重新认证",
+    "title": "实名认证"
+  },
+
+  "renew": {
+    "title": "续费群员资格",
+    "welcome": "续费须知",
+    "welcome_desc": "每次续费会延长群员资格，你可以多次通过续费来延长多年有效期。虚拟商品不会退还续费费用。",
+    "paid_confirm_dialog_title": "已经支付了么？",
+    "paid_confirm_dialog_text": "如果你已经支付，请点击已支付。我们可能需要一分钟来处理你的订单。"
+  },
+
+  "coupons": {
+    "title": "我的优惠券",
+    "empty_hint": "你没有优惠券"
+  },
+
+  "coupon": {
+    "title": "优惠券详情"
+  },
+
+  "stream": {
+    "title": "直播",
+    "download_hint": "下载 Mixin Messenger，加入群组，参与直播讨论。",
+    "download_btn": "查看入群指引",
+    "input_placeholder": "开始直播间群聊",
+    "status_enabled": "直播进行中",
+    "status_disabled": "当前没有直播"
+  },
+
+  "stream_settings": {
+    "title": "直播设置",
+    "status_title": "直播流状态",
+    "status_enabled_text": "推流启用",
+    "status_disabled_text": "推流禁用",
+    "start_stream_btn": "启用推流",
+    "stop_stream_btn": "停用推流",
+    "operations_title": "操作",
+    "gen_publish_url_btn": "生成推流 URL",
+    "notify_btn": "发送直播卡片到群里",
+    "publish_url_label": "推流 URL",
+    "publish_url_hint": "该推流 URL 有效时间为 5 分钟，请把这个推流 URL 填入 OBS 推流设置中。"
+  },
+
+  "qr": {
+    "scan_hint": "请使用 Mixin Messenger 或 Fox.ONE 扫码支付"
+  },
+
+  "annual": {
+    "title": "周年纪念章",
+    "description": "群龄：{days} 天，{joinedAt} 入群"
+  },
+
+  "profit": {
+    "title": "奖励金",
+    "empty": "没有奖励",
+    "total_amount": "邀请奖励金总额",
+    "tax_amount": "代缴个税暂存",
+    "claim_amount": "实际发放额",
+    "hint_distribute": "奖励金每个月结算一次。当月奖励金会在扣除所得税后，次月1日发放到你的钱包。",
+    "hint_kyc_required": "你需要先完成实名认证，我们才能将奖励金分发到你的钱包。",
+    "to_kyc": "前往实名认证"
+  },
+
+  "back_to_app": {
+    "back_btn": "返回 App",
+    "title": "操作完成，轻按按钮返回 App"
+  },
+
+  "error_page": {
+    "title": "出错了",
+    "code": "错误代码:",
+    "message": "错误消息:",
+    "refresh_btn": "刷新",
+    "back_home_btn": "返回首页"
+  },
+
+  "errmsg": {
+    "amount_too_small": "金额太小了"
+  },
+
+  "errorcode.-1": "NETWORK ERROR",
+  "errorcode.404": "CANNOT FIND RESOURCE",
+  "errorcode.fallback": "NETWORK ERROR"
+}

@@ -1,0 +1,145 @@
+[InvitationMessageText]
+description = ""
+one = "Hi, your invitation code is {{.Code}}. Use it to join the group."
+other = "Hi, you invitation code is {{.Code}}. Use it to join the group."
+
+[WelcomeMessageTitle]
+description = ""
+one = "Hi {{.Name}}"
+other = "Hi {{.Name}}"
+
+[WelcomeMessageDescription]
+description = ""
+one = "Tap here to read the guideline"
+other = "Tap here to read the guideline"
+
+[GroupModeLectureMessage]
+description = ""
+one = "{{.Name}} switched to Lecture mode."
+other = "{{.Name}} switched to Lecture mode."
+
+[GroupModeMuteMessage]
+description = ""
+one = "{{.Name}} switched to Mute mode."
+other = "{{.Name}} switched to Mute mode."
+
+[GroupModeFreeMessage]
+description = ""
+one = "{{.Name}} switched to ChitChat mode."
+other = "{{.Name}} switched to ChitChat mode."
+
+[LuckycoinTitle]
+description = ""
+one = "Group Luckycoin"
+other = "Group Luckycoin"
+
+[LuckycoinDescription]
+description = ""
+one = "from {{.Name}}"
+other = "from {{.Name}}"
+
+[LuckycoinOpenedMessage]
+description = ""
+one = "{{.Name}} opened your Luckycoin"
+other = "{{.Name}} opened your Luckycoin"
+
+[BroadcastOnMessage]
+description = ""
+one = "Broadcast On"
+other = "Broadcast On"
+
+[BroadcastOffMessage]
+description = ""
+one = "Broadcast Off"
+other = "Broadcast Off"
+
+[AnnouncementMessage]
+description = ""
+one = "Announcement: {{.Text}}"
+other = "Announcement: {{.Text}}"
+
+[PublicJoinMessage]
+description = ""
+one = "{{.Name}} joined the group"
+other = "{{.Name}} joined the group"
+
+[JoinMessage]
+description = ""
+one = "You have joined"
+other = "You have joined"
+
+[JoinInMuteModeMessage]
+description = ""
+one = "You have joined, but you can't talk because it's in Mute mode."
+other = "You have joined, but you can't talk because it's in Mute mode."
+
+[JoinInstructionMessage]
+description = ""
+one = "It's a private group. Tap the button to join, tap the 'Getting Started' learn more."
+other = "It's a private group. Tap the button to join, tap the 'Getting Started' learn more."
+
+[JoinInstructionEntryMessage]
+description = ""
+one = "Tap here to join"
+other = "Tap here to join"
+
+[JoinGuideMessageTitle]
+description = ""
+one = "Getting Started"
+other = "Getting Started"
+
+[JoinGuideMessageDescription]
+description = ""
+one = "Tap here to read the guide"
+other = "ap here to read the guide"
+
+[AdminRenewMessage]
+description = ""
+one = "{{.Name}} renewed the memberships"
+other = "{{.Name}} renewed the memberships"
+
+[RenewMessage]
+description = ""
+one = "You've renewed the memberships"
+other = "You've renewed the memberships"
+
+[MsgToLongMessage]
+description = ""
+one = "Send failed. The message your sent is too long."
+other = "Send failed. The message your sent is too long."
+
+[UnsubscribedMessage]
+description = ""
+one = "You have unsubscribed, can't send/receive message now."
+other = "You have unsubscribed, can't send/receive message now."
+
+[ChatRateLimitMessage]
+description = ""
+one = "claim down, too many messages"
+other = "claim down, too many messages"
+
+[TipMessage]
+description = ""
+one = "{{.From}} sent {{.To}} {{.Amount}} {{.Symbol}}"
+other = "{{.From}} sent {{.To}} {{.Amount}} {{.Symbol}}"
+
+
+[InvitationCreateMessage]
+description = ""
+one = "{{.Num}} invitation codes have been sent to you, please check them in \"Invitations - My Invitation Code\""
+other = "{{.Num}} invitation codes have been sent to you, please check them in \"Invitations - My Invitation Code\""
+
+[WritingClassCouponClaimedMessage]
+description = "写作课 500 元抵扣券发放后给用户发的消息"
+one = "你获得了一张写作课 {{.Amount}} 元优惠券，请打开“群首页 - 优惠券”查看"
+other = "你获得了一张写作课 {{.Amount}} 元优惠券，请打开“群首页 - 优惠券”查看"
+
+[RenewNotifyMessage]
+description = ""
+one = "Your memberships will expire at {{.Date}}, please renew your memberships."
+other = "Your memberships will expire at {{.Date}}, please renew your memberships."
+
+[BindInvitationNotifyMessage]
+description = ""
+one = "You're invited to this group. Tap the button to join."
+other = "You're invited to this group. Tap the button to join."
