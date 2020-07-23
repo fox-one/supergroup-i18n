@@ -1,133 +1,133 @@
 [InvitationMessageText]
 description = ""
-one = "Hi, your invitation code is {{.Code}}. Use it to join the group."
-other = "Hi, you invitation code is {{.Code}}. Use it to join the group."
+one = "あなたの招待コードは{{.Code}}です。グループへの参加はこのコードをお使いください。"
+other = "あなたの招待コードは{{.Code}}です。グループへの参加はこのコードをお使いください。"
 
 [WelcomeMessageTitle]
 description = ""
-one = "Hi {{.Name}}"
-other = "Hi {{.Name}}"
+one = "ようこそ、{{.Name}}さん"
+other = "ようこそ{{.Name}}さん"
 
 [WelcomeMessageDescription]
 description = ""
-one = "Tap here to read the guideline"
-other = "Tap here to read the guideline"
+one = "タップしてガイドラインを読む"
+other = "タップしてガイドラインを読む"
 
 [GroupModeLectureMessage]
 description = ""
-one = "{{.Name}} switched to Lecture mode."
-other = "{{.Name}} switched to Lecture mode."
+one = "{{.Name}}さんがレクチャーモードに切り替わりました。"
+other = "{{.Name}}さんがレクチャーモードに切り替わりました。"
 
 [GroupModeMuteMessage]
 description = ""
-one = "{{.Name}} switched to Mute mode."
-other = "{{.Name}} switched to Mute mode."
+one = "{{.Name}}さんがミュートモードに切り替わりました。"
+other = "{{.Name}}さんがミュートモードに切り替わりました。"
 
 [GroupModeFreeMessage]
 description = ""
-one = "{{.Name}} switched to ChitChat mode."
-other = "{{.Name}} switched to ChitChat mode."
+one = "{{.Name}}さんが雑談モードに切り替わりました。"
+other = "{{.Name}}さんが雑談モードに切り替わりました。"
 
 [LuckycoinTitle]
 description = ""
-one = "Group Luckycoin"
-other = "Group Luckycoin"
+one = "グループのラッキーコイン"
+other = "グループのラッキーコイン"
 
 [LuckycoinDescription]
 description = ""
-one = "from {{.Name}}"
-other = "from {{.Name}}"
+one = "{{.Name}}さんから"
+other = "{{.Name}}さんへ"
 
 [LuckycoinOpenedMessage]
 description = ""
-one = "{{.Name}} opened your Luckycoin"
-other = "{{.Name}} opened your Luckycoin"
+one = "{{.Name}}さんがあなたのラッキーコインを開封しました。"
+other = "{{.Name}}さんがあなたのラッキーコインを開封しました。"
 
 [BroadcastOnMessage]
 description = ""
-one = "Broadcast On"
-other = "Broadcast On"
+one = "ストリーミングオン"
+other = "ストリーミングオン"
 
 [BroadcastOffMessage]
 description = ""
-one = "Broadcast Off"
-other = "Broadcast Off"
+one = "ストリーミングオフ"
+other = "ストリーミングオフ"
 
 [AnnouncementMessage]
 description = ""
-one = "Announcement: {{.Text}}"
-other = "Announcement: {{.Text}}"
+one = "アナウンス: {{.Text}}"
+other = "アナウンス: {{.Text}}"
 
 [PublicJoinMessage]
 description = ""
-one = "{{.Name}} joined the group"
-other = "{{.Name}} joined the group"
+one = "{{.Name}}さんがグループに参加しました。"
+other = "{{.Name}}さんがグループに参加しました。"
 
 [JoinMessage]
 description = ""
-one = "You have joined"
-other = "You have joined"
+one = "グループに参加しました。"
+other = "グループに参加しました。"
 
 [JoinInMuteModeMessage]
 description = ""
-one = "You have joined, but you can't talk because it's in Mute mode."
-other = "You have joined, but you can't talk because it's in Mute mode."
+one = "グループに参加しましたが、ミュートモードのためあなたは話すことができません。"
+other = "グループに参加しましたが、ミュートモードのためあなたは話すことができません。"
 
 [JoinInstructionMessage]
 description = ""
-one = "It's a private group. Tap the button to join, tap the 'Getting Started' learn more."
-other = "It's a private group. Tap the button to join, tap the 'Getting Started' learn more."
+one = "ここはプライベートグループです。ボタンをタップして参加し、「始める」をタップして詳しい情報を確認して下さい。"
+other = "ここはプライベートグループです。ボタンをタップして参加し、「始める」をタップして詳しい情報を確認して下さい。"
 
 [JoinInstructionEntryMessage]
 description = ""
-one = "Tap here to join"
-other = "Tap here to join"
+one = "タップして参加する"
+other = "タップして参加する"
 
 [JoinGuideMessageTitle]
 description = ""
-one = "Getting Started"
-other = "Getting Started"
+one = "始める"
+other = "始める"
 
 [JoinGuideMessageDescription]
 description = ""
-one = "Tap here to read the guide"
-other = "ap here to read the guide"
+one = "タップしてガイドを読む"
+other = "タップしてガイドを読む"
 
 [AdminRenewMessage]
 description = ""
-one = "{{.Name}} renewed the memberships"
-other = "{{.Name}} renewed the memberships"
+one = "{{.Name}}さんがメンバーシップを更新しました。"
+other = "{{.Name}}さんがメンバーシップを更新しました。"
 
 [RenewMessage]
 description = ""
-one = "You've renewed the memberships"
-other = "You've renewed the memberships"
+one = "メンバーシップを更新しました。"
+other = "メンバーシップを更新しました。"
 
 [MsgToLongMessage]
 description = ""
-one = "Send failed. The message your sent is too long."
-other = "Send failed. The message your sent is too long."
+one = "送信失敗。メッセージが長すぎます。"
+other = "送信失敗。メッセージが長すぎます。"
 
 [UnsubscribedMessage]
 description = ""
-one = "You have unsubscribed, can't send/receive message now."
-other = "You have unsubscribed, can't send/receive message now."
+one = "メンバーシップを解除したため、メッセージの送信/受信はもうできません。"
+other = "メンバーシップを解除したため、メッセージの送信/受信はもうできません。"
 
 [ChatRateLimitMessage]
 description = ""
-one = "claim down, too many messages"
-other = "claim down, too many messages"
+one = "メッセージが多すぎます。"
+other = "メッセージが多すぎます。"
 
 [TipMessage]
 description = ""
-one = "{{.From}} sent {{.To}} {{.Amount}} {{.Symbol}}"
-other = "{{.From}} sent {{.To}} {{.Amount}} {{.Symbol}}"
+one = "{{.From}}さんが{{.To}}さんへ{{.Amount}}{{.Symbol}}を送金しました。"
+other = "{{.From}}さんが{{.To}}さんへ{{.Amount}}{{.Symbol}}を送金しました。"
 
 
 [InvitationCreateMessage]
 description = ""
-one = "{{.Num}} invitation codes have been sent to you, please check them in \"Invitations - My Invitation Code\""
-other = "{{.Num}} invitation codes have been sent to you, please check them in \"Invitations - My Invitation Code\""
+one = "{{.Num}} 招待コードが発行されました。\"招待 - 私の招待コード\"から確認して下さい。"
+other = "{{.Num}} 招待コードが発行されました。\"招待 - 私の招待コード\"から確認して下さい。"
 
 [WritingClassCouponClaimedMessage]
 description = "写作课 500 元抵扣券发放后给用户发的消息"
@@ -136,10 +136,10 @@ other = "你获得了一张写作课 {{.Amount}} 元优惠券，请打开“群�
 
 [RenewNotifyMessage]
 description = ""
-one = "Your memberships will expire at {{.Date}}, please renew your memberships."
-other = "Your memberships will expire at {{.Date}}, please renew your memberships."
+one = "あなたのメンバーシップは{{.Date}}で期限切れです。メンバーシップを更新して下さい。"
+other = "あなたのメンバーシップは{{.Date}}で期限切れです。メンバーシップを更新して下さい。"
 
 [BindInvitationNotifyMessage]
 description = ""
-one = "You're invited to this group. Tap the button to join."
-other = "You're invited to this group. Tap the button to join."
+one = "あなたはこのグループに招待されています。ボタンをタップして参加してください。"
+other = "あなたはこのグループに招待されています。ボタンをタップして参加してください。"
