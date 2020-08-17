@@ -1,468 +1,493 @@
 {
-  "hello": "ようこそ",
-
-  "common": {
-    "role_admin": "管理者",
-    "role_lecturer": "講師",
-    "role_user": "メンバー",
-    "vault-master": "マスター",
-    "vault-profit": "利益",
-    "vault-bonus": "ボーナス",
-    "vault-tax": "税",
-    "group_mode_free": "雑談モード",
-    "group_mode_mute": "ミュート",
+  "admin": {
+    "audio_message_enabled_label": "音声を有効にする",
+    "chat_rate_limit_label": "メッセージ数制限",
+    "chat_rate_limit_value": "{n}メッセージ/1分",
+    "chat_title": "チャット",
+    "contact_message_enabled_label": "連絡先を有効にする",
+    "course_enabled_label": "講義のリプレイ機能を有効にする",
+    "course_title": "コースのリプレイ",
+    "data_message_enabled_label": "ファイルを有効にする",
+    "group_mode_chitchat": "雑談モード",
+    "group_mode_chitchat_text": "全員がこのモードでチャットをしています。",
+    "group_mode_disabled_hint": "!!Currently in the live streaming, please stop the streaming and change the group chat mode",
+    "group_mode_goto_stream_sheet_btn": "!!Streaming Status",
+    "group_mode_label": "チャットモード",
     "group_mode_lecture": "講義",
-    "view": "確認する",
-    "copy": "コピー",
-    "share": "共有",
-    "ok": "OK",
-    "cancel": "キャンセル",
-    "paid": "支払い済み",
-    "edit": "編集",
-    "delete": "削除",
-    "kyc_status_text_0": "未承認",
-    "kyc_status_text_1": "保留中",
-    "kyc_status_text_2": "承認済み",
-    "kyc_status_text_error": "失敗しました",
-    "scan_to_join": "スキャンして参加"
+    "group_mode_lecture_text": "講師のみが話す",
+    "group_mode_mute": "ミュート",
+    "group_mode_mute_text": "講師が話し、ほかの人たちがkudoやラッキーコインを送る",
+    "image_message_enabled_label": "画像を有効にする",
+    "invitation_enabled_label": "招待を有効にする",
+    "invitation_title": "招待",
+    "link_message_enabled_label": "リンクを有効にする",
+    "luckycoin_enabled_label": "ラッキーコインを有効にする",
+    "luckycoin_max_count_label": "最大シェア",
+    "luckycoin_max_count_value": "{n}シェア",
+    "luckycoin_min_value_label": "パックごとの最低数量",
+    "luckycoin_min_value_value": "{n}ドル",
+    "luckycoin_title": "ラッキーコイン",
+    "permanent_invitation_code_enable_label": "!!Permanent Invitation Code",
+    "save_btn": "保存",
+    "settings_title": "!!Admin Setting",
+    "stat_member_count_paid": "支払い済み",
+    "stat_member_count_pending": "保留中",
+    "stat_member_count_unverified": "未認証",
+    "stat_title": "メンバーの状態",
+    "status_title": "!!Group Status",
+    "sticker_message_enabled_label": "ステッカーを有効にする",
+    "stream_disabled_hint": "!!Currently in the lecture mode, please switch the mode and start streaming",
+    "stream_enabled_label": "ストリーミングを有効にする",
+    "stream_goto_group_mode_sheet_btn": "!!View Group Mode",
+    "stream_settings": "ストリーミング設定",
+    "stream_status_label": "!!Stream status",
+    "stream_status_value_disabled": "!!No Streaming",
+    "stream_status_value_enabled": "!!Streaming",
+    "stream_title": "ストリーミング",
+    "tip_enabled_label": "Kudoを有効にする",
+    "tip_min_value_label": "kudoごとの最低数量",
+    "tip_min_value_value": "{n}ドル",
+    "tip_title": "Kudo",
+    "title": "管理者ダッシュボード",
+    "vaults_label": "保管庫管理",
+    "video_message_enabled_label": "動画を有効にする"
   },
-
+  "admin_vault_withdrawal": {
+    "label_1": "出金",
+    "label_2": "出金元",
+    "label_3": "出金先",
+    "pin_label": "6桁のPIN",
+    "title": "出金",
+    "withdraw_btn": "出金",
+    "withdraw_hint": "全資産が指定のMixinウォレットに送金されます。"
+  },
+  "admin_vaults": {
+    "assets_title": "資産",
+    "title": "保管庫管理",
+    "vault_hint": "利益保管庫からのみ出金が可能です。",
+    "vaults_title": "保管庫"
+  },
+  "annual": {
+    "description": "期間: {days}日, {joinedAt}に参加",
+    "title": "記念日メダル"
+  },
+  "back_to_app": {
+    "back_btn": "アプリに戻る",
+    "title": "完了。タップしてアプリに戻る。"
+  },
   "badges.anniversary_1": "1年",
-
-  "com.course_item.duration_sec": "{n}秒",
-  "com.course_item.duration_min": "{n}分",
-  "com.course_item.action_publish": "公開",
-  "com.course_item.action_unpublish": "未公開",
-  "com.course_item.action_edit": "編集",
-  "com.course_item.action_open": "一般公開する",
-  "com.course_item.action_close": "一般公開しない",
-  "com.course_item.status_unpublished": "未公開",
-  "com.course_item.status_open": "一般公開",
-
-  "com.invited_relation_panel.invited_title": "招待者",
-  "com.invited_relation_panel.delete": "削除",
-  "com.invited_relation_panel.my_invitation_title": "あなたの招待コード",
-  "com.invited_relation_panel.avaiable_invitation": "{n} 利用可能な招待コード",
-
-  "com.luckycoin_cover.hint": "{name}さんからのラッキーコインパック",
-  "com.luckycoin_cover.open_btn": "開封する",
-  "com.luckycoin_view.participants_title": "受取: {n}/{count} パック, {m}/{amount} {symbol}",
-  "com.luckycoin_view.my_claim_title": "あなたのラッキーコイン",
-  "com.luckycoin_view.lottery_badge": "超ラッキー",
-
-  "com.course_message_item.loading_process": "バッファ：{n}%",
-
-  "com.course_kudo_section.button_text": "Kudoを送信する",
-
-  "com.course_intro_section.title": "この講義は、このグループのものです:",
-  "com.course_intro_section.button_text": "グループを見る",
-
-  "com.invitation_share_card.inviter_prefix": "{name}さんがあなたを招待しています",
-  "com.invitation_share_card.inviter_code": "招待コード",
-  "com.invitation_share_card.save_hint": "QRコードをスキャンしてインストラクションを見る",
-
   "com.chat_area.empty_hint": "まだメッセージがありません",
-
-  "com.member_list.age_hint": "経過: {time}日",
-  "com.member_list.expired_hint": "期限: {time}",
-
-  "com.coupon_item.type_discount": "値下げ中",
-  "com.coupon_item.type_voucher": "クーポン",
   "com.coupon_item.amount_text_discount": "{amount}%で購入",
   "com.coupon_item.amount_text_discount_alt": "{amount}オフ",
   "com.coupon_item.amount_text_voucher": "{amount}",
-  "com.coupon_item.detail": "詳細",
   "com.coupon_item.btn": "クーポンを使用する",
+  "com.coupon_item.detail": "詳細",
   "com.coupon_item.expired_hint": "{time}で期限切れ",
-
-  "com.payment_panel.period_title": "メンバーシップ有効期間",
-  "com.payment_panel.period_hint": "長い期間ほど値下げが受けられます。招待者の方にご相談ください。",
-  "com.payment_panel.period_label": "有効期間",
+  "com.coupon_item.type_discount": "値下げ中",
+  "com.coupon_item.type_voucher": "クーポン",
+  "com.course_access_sheet.is_open": "!!Set the course as public?",
+  "com.course_access_sheet.is_published": "!!Publish the course?",
+  "com.course_access_sheet.open_hint": "!!Send the public course card to the chat, and everyone (whether in the group or not) will watch it.",
+  "com.course_access_sheet.open_title": "!!Set as public",
+  "com.course_access_sheet.publish_hint": "!!Send course card to the chat. All members in the group will watch it.",
+  "com.course_access_sheet.publish_title": "!!Publish",
+  "com.course_access_sheet.send_btn": "!!Send",
+  "com.course_intro_section.button_text": "グループを見る",
+  "com.course_intro_section.title": "この講義は、このグループのものです:",
+  "com.course_item.action_close": "------一般公開しない",
+  "com.course_item.action_edit": "編集",
+  "com.course_item.action_edit_access": "!!Edit Access",
+  "com.course_item.action_open": "------一般公開する",
+  "com.course_item.action_publish": "------公開",
+  "com.course_item.action_unpublish": "------未公開",
+  "com.course_item.duration_min": "{n}分",
+  "com.course_item.duration_sec": "{n}秒",
+  "com.course_item.status_open": "一般公開",
+  "com.course_item.status_unpublished": "未公開",
+  "com.course_item.type_other": "!!Record",
+  "com.course_item.type_streaming": "!!Live Record",
+  "com.course_kudo_section.button_text": "Kudoを送信する",
+  "com.course_message_item.loading_process": "バッファ：{n}%",
+  "com.insufficient_link.buy_way_sheet_hint": "Powered by Fox.ONE",
+  "com.insufficient_link.buy_way_sheet_item_1": "暗号通貨で取引",
+  "com.insufficient_link.buy_way_sheet_item_2": "法定通貨で購入",
+  "com.insufficient_link.buy_way_sheet_item_text_1": "他通貨を{symbol}にコンバート",
+  "com.insufficient_link.buy_way_sheet_item_text_2": "他の人から{symbol}を購入",
+  "com.insufficient_link.buy_way_sheet_title": "入手方法を選択",
+  "com.insufficient_link.insufficient_asset_btn": "{symbol}をお持ちでない場合は、タップして購入して下さい",
+  "com.insufficient_link.kyc_dialog_btn": "認証を始める",
+  "com.insufficient_link.kyc_dialog_text": "最初の暗号通貨の購入には認証が必要です。中国本土のIDカードをご用意ください。",
+  "com.insufficient_link.kyc_dialog_title": "認証が必要です",
+  "com.invitation_share_card.inviter_code": "招待コード",
+  "com.invitation_share_card.inviter_prefix": "{name}さんがあなたを招待しています",
+  "com.invitation_share_card.save_hint": "QRコードをスキャンしてインストラクションを見る",
+  "com.invited_relation_panel.avaiable_invitation": "{n} 利用可能な招待コード",
+  "com.invited_relation_panel.delete": "削除",
+  "com.invited_relation_panel.invited_title": "招待者",
+  "com.invited_relation_panel.my_invitation_title": "あなたの招待コード",
+  "com.luckycoin_cover.hint": "{name}さんからのラッキーコインパック",
+  "com.luckycoin_cover.open_btn": "開封する",
+  "com.luckycoin_view.lottery_badge": "超ラッキー",
+  "com.luckycoin_view.my_claim_title": "あなたのラッキーコイン",
+  "com.luckycoin_view.participants_title": "受取: {n}/{count} パック, {m}/{amount} {symbol}",
+  "com.member_list.age_hint": "経過: {time}日",
+  "com.member_list.expired_hint": "期限: {time}",
+  "com.payment_panel.copy-address": "!!Copy Address",
+  "com.payment_panel.coupons_sheet_title": "クーポンを選択",
+  "com.payment_panel.estimated_hint": "暗号通貨の価格は変動が激しいため、実際の支払い金額は異なる可能性がございます。",
+  "com.payment_panel.get_payment_fail": "支払い情報の取得に失敗しました",
+  "com.payment_panel.open-in-browser": "!!Open in Browser",
+  "com.payment_panel.pay_alipay": "Alipayで支払う",
+  "com.payment_panel.pay_crypto": "支払う",
+  "com.payment_panel.pay_method_alipay": "Alipay",
+  "com.payment_panel.pay_method_alipay.hint": "スクリーンショットを撮って<b>AliPay</b>でスキャンする",
+  "com.payment_panel.pay_method_crypto": "暗号通貨",
+  "com.payment_panel.pay_method_wechat": "WeChat",
+  "com.payment_panel.pay_method_wechat.hint": "スクリーンショットを撮って<b>WeChat</b>でスキャンする",
+  "com.payment_panel.pay_none": "支払う",
+  "com.payment_panel.pay_successfully": "支払いが完了しました",
+  "com.payment_panel.pay_wechat": "WeChatで支払う",
   "com.payment_panel.period_1_year": "1年",
   "com.payment_panel.period_2_year": "2年",
   "com.payment_panel.period_3_year": "3年",
   "com.payment_panel.period_5_year": "5年",
   "com.payment_panel.period_7_year": "7年",
-  "com.payment_panel.estimated_hint": "暗号通貨の価格は変動が激しいため、実際の支払い金額は異なる可能性がございます。",
-  "com.payment_panel.select_title": "支払い通貨：",
-  "com.payment_panel.pay_method_crypto": "暗号通貨",
-  "com.payment_panel.pay_method_wechat": "WeChat",
-  "com.payment_panel.pay_method_alipay": "Alipay",
-  "com.payment_panel.pay_method_wechat.hint": "スクリーンショットを撮って<b>WeChat</b>でスキャンする",
-  "com.payment_panel.pay_method_alipay.hint": "スクリーンショットを撮って<b>AliPay</b>でスキャンする",
-  "com.payment_panel.pay_crypto": "支払う",
-  "com.payment_panel.pay_alipay": "Alipayで支払う",
-  "com.payment_panel.pay_wechat": "WeChatで支払う",
-  "com.payment_panel.pay_none": "支払う",
+  "com.payment_panel.period_hint": "長い期間ほど値下げが受けられます。招待者の方にご相談ください。",
+  "com.payment_panel.period_label": "有効期間",
+  "com.payment_panel.period_title": "メンバーシップ有効期間",
   "com.payment_panel.price_label": "価格: ",
   "com.payment_panel.price_value": "{price} {unit}",
   "com.payment_panel.price_value_estimated": "≈{price} {unit}",
-  "com.payment_panel.kyc_dialog_title": "認証が必要です",
-  "com.payment_panel.kyc_dialog_text": "最初の暗号通貨の購入には認証が必要です。中国本土のIDカードをご用意ください。",
-  "com.payment_panel.kyc_dialog_btn": "認証を始める",
-  "com.payment_panel.insufficient_asset_btn": "{symbol}をお持ちでない場合は、タップして購入して下さい",
-  "com.payment_panel.buy_way_sheet_hint": "Powered by Fox.ONE",
-  "com.payment_panel.buy_way_sheet_title": "入手方法を選択",
-  "com.payment_panel.buy_way_sheet_item_1": "暗号通貨で取引",
-  "com.payment_panel.buy_way_sheet_item_text_1": "他通貨を{symbol}にコンバート",
-  "com.payment_panel.buy_way_sheet_item_2": "法定通貨で購入",
-  "com.payment_panel.buy_way_sheet_item_text_2": "他の人から{symbol}を購入",
+  "com.payment_panel.select_title": "支払い通貨：",
   "com.payment_panel.use_coupon": "クーポン",
-  "com.payment_panel.coupons_sheet_title": "クーポンを選択",
-  "com.payment_panel.get_payment_fail": "支払い情報の取得に失敗しました",
-  "com.payment_panel.pay_successfully": "支払いが完了しました",
-
+  "com.stream_control_sheet.copy_hint": "!!Copy and paste this link into streaming software (such as OBS) to start streaming.",
+  "com.stream_control_sheet.notify_btn": "!!Notify",
+  "com.stream_control_sheet.notify_hint": "!!If everything goes well, send a streaming notification to the chat.",
+  "com.stream_control_sheet.operations_title": "!!Operations",
+  "com.stream_control_sheet.preview_btn": "!!Preview",
+  "com.stream_control_sheet.publish_url_hint": "!!The URL will expire in 5 mins. Please use it in OBS settings.",
+  "com.stream_control_sheet.start_hint": "!!Tap `Start Streaming` to start live streaming, start live streaming recording, and generate push links.",
+  "com.stream_control_sheet.start_stream_btn": "!!Start Streaming",
+  "com.stream_control_sheet.status_disabled_text": "!!Stream is disabled",
+  "com.stream_control_sheet.status_enabled_text": "!!Stream is enabled",
+  "com.stream_control_sheet.stop_hint": "!!Tap `Stop Streaming` to generate live playback, please check it in the `courses`.",
+  "com.stream_control_sheet.stop_stream_btn": "!!Stop Stream",
+  "com.video_player.error_hint_no_stream": "!!No live events",
+  "com.video_player.error_hint_no_stream_or_no_conn": "!!No live events or no connection",
+  "common": {
+    "cancel": "キャンセル",
+    "copy": "コピー",
+    "delete": "削除",
+    "edit": "編集",
+    "fold": "折る",
+    "group_mode_free": "雑談モード",
+    "group_mode_lecture": "講義",
+    "group_mode_mute": "ミュート",
+    "kyc_status_text_0": "未承認",
+    "kyc_status_text_1": "保留中",
+    "kyc_status_text_2": "承認済み",
+    "kyc_status_text_error": "失敗しました",
+    "ok": "OK",
+    "paid": "支払い済み",
+    "role_admin": "管理者",
+    "role_lecturer": "講師",
+    "role_user": "メンバー",
+    "scan_to_join": "スキャンして参加",
+    "share": "共有",
+    "unfold": "すべて見る",
+    "vault-bonus": "ボーナス",
+    "vault-master": "マスター",
+    "vault-profit": "利益",
+    "vault-tax": "税",
+    "view": "確認する"
+  },
+  "coupon": {
+    "title": "クーポン詳細"
+  },
+  "coupons": {
+    "empty_hint": "クーポンがありません",
+    "title": "あなたのクーポン"
+  },
+  "course_detail": {
+    "title": "講義のリプレイ"
+  },
+  "course_index": {
+    "empty_hint": "リプレイ録画がありません",
+    "filter_all_speakers": "すべての講師",
+    "filter_all_tags": "すべてのタグ",
+    "search_placeholder": "タイトルか説明から検索Search title or description",
+    "title": "講義"
+  },
+  "errmsg": {
+    "amount_too_small": "数量が少なすぎます"
+  },
+  "error_page": {
+    "back_home_btn": "ホームに戻る",
+    "code": "コード:",
+    "message": "メッセージ:",
+    "path": "!!Route:",
+    "refresh_btn": "更新",
+    "title": "おっと、エラーが発生しました。"
+  },
+  "errorcode.-1": "ネットワークエラー",
+  "errorcode.404": "リソースエラー",
+  "errorcode.fallback": "ネットワークエラー",
+  "hello": "ようこそ",
   "home": {
-    "announcement_dialog_title": "アナウンスを編集する",
-    "edit_announcement_btn": "編集",
-    "welcome": "やぁ {role} {name}",
     "announcement": "アナウンス",
-    "subscribed_btn": "メンバーシップ購入済み",
-    "unsubscribed_btn": "メンバーシップ解除済み",
+    "announcement_dialog_title": "アナウンスを編集する",
     "builtin_feat_title": "グループ管理",
-    "feat_tip": "Kudo",
-    "feat_luckycoin": "ラッキーコイン",
-    "feat_invitation": "招待",
-    "feat_course": "リプレイ",
-    "feat_stream": "ストリーミング",
+    "edit_announcement_btn": "編集",
     "feat_coupon": "クーポン",
+    "feat_course": "リプレイ",
     "feat_income": "報酬",
-    "unsub_title": "メンバーシップ解除",
+    "feat_invitation": "招待",
+    "feat_luckycoin": "ラッキーコイン",
+    "feat_stream": "ストリーミング",
+    "feat_tip": "Kudo",
+    "subscribed_btn": "メンバーシップ購入済み",
+    "unsub_cancel_btn": "考え直す",
     "unsub_description": "メンバーシップを解除すると、グループのメッセージを見ることができなくなります。本当にメンバーシップを解除しますか？",
     "unsub_ok_btn": "メンバーシップを解除",
-    "unsub_cancel_btn": "考え直す"
+    "unsub_title": "メンバーシップ解除",
+    "unsubscribed_btn": "メンバーシップ解除済み",
+    "welcome": "やぁ {role} {name}"
   },
-
-  "welcome": {
-    "title": "{name}へようこそ"
+  "invitation_public": {
+    "active_at_label": "最終オンライン",
+    "code_label": "招待コード",
+    "empty_hint": "現在、招待コードを提供しているアクティブメンバーがいません。",
+    "title": "公開招待コード",
+    "welcome": "メンバーからの招待コード",
+    "welcome_desc": "最近アクティブなグループメンバーの招待コードを表示しています。コードを使用する前に、主催者に連絡することを推奨します。また、問題がありましたら、同じく主催者にご連絡ください。"
   },
-
-  "guide": {
-    "title": "グループに参加する"
-  },
-
   "invitations": {
-    "edit_greeting_dialog_title": "メッセージを追加する",
-    "my_poster_title": "あなたのポスター",
-    "my_invitations_title": "あなたの招待",
-    "permanetn_invitation_title": "あなたの招待コード",
-    "generate_posters_label": "招待ポスターを発行する",
     "avaiable_invitations": "{n} 招待コード",
-    "used_invitations": "{n} 招待済み",
+    "edit_greeting_dialog_title": "メッセージを追加する",
     "gen_post_btn": "投稿を発行する",
-    "title": "招待"
+    "generate_posters_label": "招待ポスターを発行する",
+    "my_invitations_title": "あなたの招待",
+    "my_poster_title": "あなたのポスター",
+    "permanetn_invitation_title": "あなたの招待コード",
+    "title": "招待",
+    "used_invitations": "{n} 招待済み"
   },
-
-  "invitations_invitees": {
-    "view": "確認する",
-    "user_state_paid": "参加済み",
-    "user_state_unverified": "未認証",
-    "user_state_pending": "保留中",
-    "empty_hint": "招待者がいません",
-    "title": "あなたの招待者"
-  },
-
   "invitations_codes": {
     "empty_hint": "招待コードがありません",
     "title": "あなたのコード"
   },
-
+  "invitations_invitees": {
+    "empty_hint": "招待者がいません",
+    "title": "あなたの招待者",
+    "user_state_paid": "参加済み",
+    "user_state_pending": "保留中",
+    "user_state_unverified": "未認証",
+    "view": "確認する"
+  },
   "invitations_share": {
-    "hint": "画像をアルバムに保存する",
     "general_share_summary": "グループに参加しましょう",
+    "hint": "画像をアルバムに保存する",
     "title": "シェア"
   },
-
-  "invitation_public": {
-    "empty_hint": "現在、招待コードを提供しているアクティブメンバーがいません。",
-    "welcome": "メンバーからの招待コード",
-    "welcome_desc": "最近アクティブなグループメンバーの招待コードを表示しています。コードを使用する前に、主催者に連絡することを推奨します。また、問題がありましたら、同じく主催者にご連絡ください。",
-    "code_label": "招待コード",
-    "active_at_label": "最終オンライン",
-    "title": "公開招待コード"
-  },
-
-  "admin_vaults": {
-    "vaults_title": "保管庫",
-    "assets_title": "資産",
-    "vault_hint": "利益保管庫からのみ出金が可能です。",
-    "title": "保管庫管理"
-  },
-
-  "admin_vault_withdrawal": {
-    "label_1": "出金",
-    "label_2": "出金元",
-    "label_3": "出金先",
-    "withdraw_hint": "全資産が指定のMixinウォレットに送金されます。",
-    "pin_label": "6桁のPIN",
-    "withdraw_btn": "出金",
-    "title": "出金"
-  },
-
-  "admin": {
-    "title": "管理者ダッシュボード",
-    "image_message_enabled_label": "画像を有効にする",
-    "audio_message_enabled_label": "音声を有効にする",
-    "video_message_enabled_label": "動画を有効にする",
-    "data_message_enabled_label": "ファイルを有効にする",
-    "sticker_message_enabled_label": "ステッカーを有効にする",
-    "contact_message_enabled_label": "連絡先を有効にする",
-    "link_message_enabled_label": "リンクを有効にする",
-    "luckycoin_enabled_label": "ラッキーコインを有効にする",
-    "tip_enabled_label": "Kudoを有効にする",
-    "invitation_enabled_label": "招待を有効にする",
-    "course_enabled_label": "講義のリプレイ機能を有効にする",
-    "stream_enabled_label": "ストリーミングを有効にする",
-    "stream_title": "ストリーミング",
-    "stream_settings": "ストリーミング設定",
-    "luckycoin_title": "ラッキーコイン",
-    "luckycoin_min_value_label": "パックごとの最低数量",
-    "luckycoin_min_value_value": "{n}ドル",
-    "luckycoin_max_count_label": "最大シェア",
-    "luckycoin_max_count_value": "{n}シェア",
-    "tip_title": "Kudo",
-    "tip_min_value_label": "kudoごとの最低数量",
-    "tip_min_value_value": "{n}ドル",
-    "invitation_title": "招待",
-    "course_title": "コースのリプレイ",
-    "vaults_label": "保管庫管理",
-    "group_mode_label": "チャットモード",
-    "group_mode_chitchat": "雑談モード",
-    "group_mode_mute": "ミュート",
-    "group_mode_lecture": "講義",
-    "group_mode_chitchat_text": "全員がこのモードでチャットをしています。",
-    "group_mode_mute_text": "講師が話し、ほかの人たちがkudoやラッキーコインを送る",
-    "group_mode_lecture_text": "講師のみが話す",
-    "chat_title": "チャット",
-    "chat_rate_limit_label": "メッセージ数制限",
-    "chat_rate_limit_value": "{n}メッセージ/1分",
-    "save_btn": "保存",
-    "stat_title": "メンバーの状態",
-    "stat_member_count_paid": "支払い済み",
-    "stat_member_count_pending": "保留中",
-    "stat_member_count_unverified": "未認証"
-  },
-
-  "tip_rank": {
-    "title": "ランク"
-  },
-
-  "tip_send": {
-    "title": "Kudo",
-    "amount_placeholder": "kudo数量",
-    "users_title": "kudoの送信相手",
-    "send_btn": "Kudoを送る",
-    "min_amount_hint": "最低でも{min}{symbol}を送ってください",
-    "view_rank_btn": "ランクを確認する"
-  },
-
-  "luckycoin": {
-    "title": "ラッキーコイン"
-  },
-
-  "luckycoin_pack": {
-    "title": "ラッキーコインを準備",
-    "amount_placeholder": "資産数量",
-    "mode_random_title": "ランダム",
-    "mode_random_description": "メンバーはランダムな量を受け取ります",
-    "mode_ideal_title": "理想",
-    "mode_ideal_description": "万バーはいくらかの量を受け取ります",
-    "mode_contribution_title": "貢献",
-    "mode_contribution_description": "貢献度の高いメンバーはより多い量を受け取ることができます",
-    "shares_hint": "Max: {max}シェア",
-    "shares_placeholder": "シェア数",
-    "greeting_placeholder": "ご挨拶",
-    "greeting_default": "BTCロング, 「世界」をショート",
-    "min_amount_hint": "最低でも{min}{symbol}をパックしてください",
-    "send_btn": "送信"
-  },
-
-  "course_detail": {
-    "title": "講義のリプレイ"
-  },
-
-  "course_index": {
-    "title": "講義",
-    "search_placeholder": "タイトルか説明から検索Search title or description",
-    "filter_all_speakers": "すべての講師",
-    "filter_all_tags": "すべてのタグ",
-    "empty_hint": "リプレイ録画がありません"
-  },
-
-  "member_index": {
-    "tab_ops": "管理",
-    "tab_search": "検索",
-    "tab_member": "メンバー",
-    "admin_title": "管理者",
-    "lecturer_title": "講師",
-    "search_placeholder": "名前/IDから検索",
-    "title": "メンバー"
-  },
-
-  "member": {
-    "talk_btn": "会話",
-    "tip_btn": "kudoを送る",
-    "block_btn": "ブロック",
-    "unblock_btn": "ブロック解除",
-    "kick_btn": "キック",
-    "set_role_btn": "役割を設定する",
-    "state_blocked": "ブロック済み",
-    "state_paid": "参加済み",
-    "state_pending": "未払い",
-    "state_unverified": "未認証",
-    "state_subscribed": "メンバーシップ購入済み",
-    "state_unsubscribed": "メンバーシップ未購入",
-    "label_joined": "参加",
-    "label_expire": "期限",
-    "label_role": "役割",
-    "label_state": "状態",
-    "value_age": "期間: {time}日",
-    "title": "メンバー情報"
-  },
-
-  "me": {
-    "badge_title": "バッジ",
-    "verification_label": "認証ステータス",
-    "title": "あなた",
-    "expired_at_title": "{date}でメンバーシップの期限が切れます",
-    "edit_profile_dialog_title": "プロフィールを編集",
-    "edit_profile_btn": "プロフィールを編集する",
-    "label_group_nickname": "グループ名",
-    "label_group_bio": "グループ説明",
-    "renew_btn": "更新する"
-  },
-
-  "pay": {
-    "title": "グループに参加",
-    "pay_and_join": "参加する",
-    "welcome": "ようこそ",
-    "welcome_desc": "ここはプライベートグループです。インストラクションを読んで、参加してください。お支払いは返金不可能となっております。",
-    "welcome_desc_alt": "ここは公開グループです。タップして参加して下さい。",
-    "join_btn": "確認して参加",
-    "invitation_btn": "申し込む",
-    "invite_code_title": "まず始めに招待コードを入力してください。",
-    "invite_title": "招待コード",
-    "invite_placeholder": "あなたの招待コード",
-    "invite_desc": "招待者の方に招待コードをお尋ね下さい。もしくは、ここをタップしてグループメンバーのコードを確認できます。",
-    "xuexi_payment_title": "支払って参加",
-    "xuexi_payment_desc": "XUE XIでお支払いいただき、プライベートグループに参加して下さい。",
-    "method_crypto": "暗号通貨で支払う",
-    "method_crypto_desc": "このプライベートグループに参加するには、お支払いが必要です。",
-    "select_assets": "資産を選択",
-    "success_toast": "グループに参加しました。",
-    "method_coupon": "クーポンコードを適用する",
-    "coupon_placeholder": "クーポンコード",
-    "invitation_code_unavailable": "招待コードが正しくありません",
-    "correct_coupon_code_toast": "クーポンコードが適用されました",
-    "incorrect_coupon_code_toast": "クーポンコードが正しくありません",
-    "paid_confirm_dialog_title": "お支払いは済んでいますか？",
-    "paid_confirm_dialog_text": "お支払いがお済みの場合、「支払い済み」をタップして下さい。注文処理には3から5分ほどかかります。"
-  },
-
   "kyc": {
-    "prepare_title": "認証の準備をする",
-    "qrcode_text": "認証を完了できない場合、QRコードをスキャンしてもう一度お試しください。",
-    "qrcode_text_alt": "<strong>如果你使用锤子或者坚果手机，建议插上电源线，在支付宝中扫码进行实名验证。</strong>",
+    "button_label_0": "始める",
+    "button_label_1": "再提出",
+    "button_label_2": "戻る",
+    "button_label_error": "再開",
+    "hint_error_line_1": "理由: {reason}",
+    "hint_error_line_2": "コード：{code}",
     "hint_init_line_1": "このサービスの利用を継続する場合、認証プロセスを通過して下さい。以下の通りに準備を行ってください。",
     "hint_init_line_2": "1. IDカードを用意",
     "hint_init_line_3": "2. カメラとマイクへのアクセス許可がオンであることを確認",
     "hint_pending_line_1": "審査は第三者機関により行われ、15分ほどで完了します。",
     "hint_pending_line_2": "審査結果が出ると、通知が届きます。",
-    "hint_error_line_1": "理由: {reason}",
-    "hint_error_line_2": "コード：{code}",
-    "result_line_1": "名前: {name}",
-    "result_line_2": "ID: {id}",
-    "notice_title": "お知らせ",
     "notice_line_1": "現在、中国本土の住民のみが認証プロセスを行うことができます。",
     "notice_line_2": "審査には、カメラとマイクへのアクセス許可必要です。オンであることを確認してください。",
     "notice_line_3": "認証は、FaceIDなどの第三者期間のサービスを利用して行われます。個人情報は審査にのみ使用されます。",
     "notice_line_4": "あなたの個人情報は暗号化され、正確に処理されます。また、個人情報を公開及び販売することは決してありません。",
     "notice_line_5": "如果你使用锤子或者坚果手机，建议截屏实名验证的二维码，然后插上电源线，在支付宝或者微信中扫码进行实名验证。",
-    "button_label_0": "始める",
-    "button_label_1": "再提出",
-    "button_label_2": "戻る",
-    "button_label_error": "再開",
+    "notice_title": "お知らせ",
+    "prepare_title": "認証の準備をする",
+    "qrcode_text": "認証を完了できない場合、QRコードをスキャンしてもう一度お試しください。",
+    "qrcode_text_alt": "<strong>如果你使用锤子或者坚果手机，建议插上电源线，在支付宝中扫码进行实名验证。</strong>",
+    "result_line_1": "名前: {name}",
+    "result_line_2": "ID: {id}",
     "title": "認証"
   },
-
-  "renew": {
-    "title": "更新",
-    "welcome": "更新のお知らせ",
-    "welcome_desc": "更新をすると、グループのメンバーシップ期間を延長することができます。更新は何度でもすることができますが、お支払いは返金ができないのでご注意下さい。",
-    "paid_confirm_dialog_title": "お支払いはお済みですか？",
-    "paid_confirm_dialog_text": "お支払いがお済みの場合、「支払い済み」をタップして下さい。注文処理には3から5分ほどかかります。"
+  "luckycoin": {
+    "title": "ラッキーコイン"
   },
-
-  "coupons": {
-    "title": "あなたのクーポン",
-    "empty_hint": "クーポンがありません"
+  "luckycoin_pack": {
+    "amount_placeholder": "資産数量",
+    "greeting_default": "BTCロング, 「世界」をショート",
+    "greeting_placeholder": "ご挨拶",
+    "min_amount_hint": "最低でも{min}{symbol}をパックしてください",
+    "mode_contribution_description": "貢献度の高いメンバーはより多い量を受け取ることができます",
+    "mode_contribution_title": "貢献",
+    "mode_ideal_description": "万バーはいくらかの量を受け取ります",
+    "mode_ideal_title": "理想",
+    "mode_random_description": "メンバーはランダムな量を受け取ります",
+    "mode_random_title": "ランダム",
+    "send_btn": "送信",
+    "shares_hint": "Max: {max}シェア",
+    "shares_placeholder": "シェア数",
+    "title": "ラッキーコインを準備"
   },
-
-  "coupon": {
-    "title": "クーポン詳細"
+  "me": {
+    "badge_title": "バッジ",
+    "edit_profile_btn": "プロフィールを編集する",
+    "edit_profile_dialog_title": "プロフィールを編集",
+    "expired_at_title": "{date}でメンバーシップの期限が切れます",
+    "label_group_bio": "グループ説明",
+    "label_group_nickname": "グループ名",
+    "renew_btn": "更新する",
+    "title": "あなた",
+    "verification_label": "認証ステータス"
   },
-
-  "stream": {
-    "title": "ストリーミング",
-    "download_hint": "Mixinメッセンジャーをダウンロードして、グループチャットに参加",
-    "download_btn": "登録方法ガイド",
-    "input_placeholder": "チャット",
-    "status_enabled": "ストリーミング",
-    "status_disabled": "ストリーミングがありません"
+  "member": {
+    "block_btn": "ブロック",
+    "kick_btn": "キック",
+    "label_expire": "期限",
+    "label_joined": "参加",
+    "label_role": "役割",
+    "label_state": "状態",
+    "set_role_btn": "役割を設定する",
+    "state_blocked": "ブロック済み",
+    "state_paid": "参加済み",
+    "state_pending": "未払い",
+    "state_subscribed": "メンバーシップ購入済み",
+    "state_unsubscribed": "メンバーシップ未購入",
+    "state_unverified": "未認証",
+    "talk_btn": "会話",
+    "tip_btn": "kudoを送る",
+    "title": "メンバー情報",
+    "unblock_btn": "ブロック解除",
+    "value_age": "期間: {time}日"
   },
-
-  "stream_settings": {
-    "title": "ストリーミング設定",
-    "status_title": "ストリーミングの状態",
-    "status_enabled_text": "ストリーミングが有効",
-    "status_disabled_text": "ストリーミングが無効",
-    "start_stream_btn": "ストリーミングを始める",
-    "stop_stream_btn": "ストリーミングをやめる",
-    "operations_title": "管理",
-    "gen_publish_url_btn": "公開URLを発行する",
-    "notify_btn": "お知らせ",
-    "publish_url_label": "URLを公開する",
-    "publish_url_hint": "このURLは5分間で期限切れとなります。OBS設定でご利用下さい。"
+  "member_index": {
+    "admin_title": "管理者",
+    "lecturer_title": "講師",
+    "search_placeholder": "名前/IDから検索",
+    "tab_member": "メンバー",
+    "tab_ops": "管理",
+    "tab_search": "検索",
+    "title": "メンバー"
   },
-
+  "onboarding_guide": {
+    "join_btn": "!!Join Now",
+    "sec_text_1": "!!{name} is a private group, you can join this group according to the guide. Speaking in the group, please abide by the group rules, and abide by local policies and regulations.",
+    "sec_text_2": "!!This group requires an invitation code to join. If you do not have an invitation code, please ask your inviter for it.",
+    "sec_text_3": "!!This group needs to pay a certain amount to join. Please select a payment method and you can join the group after payment.",
+    "sec_title_1": "!!Notice",
+    "sec_title_2": "!!Use the Invitations",
+    "sec_title_3": "!!Pay to Join",
+    "title": "グループに参加する"
+  },
+  "onboarding_install": {
+    "page_description": "!!with {count} group members",
+    "page_title": "!!Join {name}",
+    "step_text_1_1": "!!Download XUEXI App",
+    "step_text_1_2": "!!Download XUEXI App from App Store / Google Play",
+    "step_text_1_3": "!!for Chinese users, please download XUEXI App Apk and install manually",
+    "step_text_1_4": "!!Download APK (Please open the link in browser)",
+    "step_text_2_1": "!!Join the group",
+    "step_text_2_2": "!!Launch the App",
+    "step_text_2_3": "!!Search the group number:",
+    "step_text_2_4": "!!Tap `Add contacts`, and tap the bot button at the left top corner.",
+    "step_text_2_5": "!!Tap `Allow` button.",
+    "step_text_2_6": "!!Use the invitation code to join {name}",
+    "step_text_2_7": "!!You will see the welcome message. You may need to pay if it's a private group.",
+    "step_title_1": "!!Step 1",
+    "step_title_2": "!!Step 2",
+    "title": "!!A Guideline to Join"
+  },
+  "onboarding_welcome": {
+    "sec_text_1": "!!The group supports the course replay. All the courses in the group can be watched and replayed through this entry.",
+    "sec_text_2": "!!Sending some cryptocurrencies to the group, and all group members can receive it.",
+    "sec_text_3": "!!Sending Kudos to others and a color kudos message will be showed in the group. ",
+    "sec_title_1": "!!Course Replay",
+    "sec_title_2": "!!Luckycoin",
+    "sec_title_3": "!!Kudos",
+    "summary": "!!Please speak in a friendly manner in the group, abide by national policies and group rules, and do not exchange illegal content and conduct personal attacks in the group. The following is a brief introduction to the group functions.",
+    "title": "ようこそ"
+  },
+  "pay": {
+    "correct_coupon_code_toast": "クーポンコードが適用されました",
+    "coupon_placeholder": "クーポンコード",
+    "incorrect_coupon_code_toast": "クーポンコードが正しくありません",
+    "invitation_btn": "申し込む",
+    "invitation_code_unavailable": "招待コードが正しくありません",
+    "invite_code_title": "まず始めに招待コードを入力してください。",
+    "invite_desc": "招待者の方に招待コードをお尋ね下さい。もしくは、ここをタップしてグループメンバーのコードを確認できます。",
+    "invite_placeholder": "あなたの招待コード",
+    "invite_title": "招待コード",
+    "join_btn": "確認して参加",
+    "method_coupon": "クーポンコードを適用する",
+    "method_crypto": "暗号通貨で支払う",
+    "method_crypto_desc": "このプライベートグループに参加するには、お支払いが必要です。",
+    "paid_confirm_dialog_text": "お支払いがお済みの場合、「支払い済み」をタップして下さい。注文処理には3から5分ほどかかります。",
+    "paid_confirm_dialog_title": "お支払いは済んでいますか？",
+    "pay_and_join": "参加する",
+    "select_assets": "資産を選択",
+    "success_toast": "グループに参加しました。",
+    "title": "グループに参加",
+    "welcome": "ようこそ",
+    "welcome_desc": "ここはプライベートグループです。インストラクションを読んで、参加してください。お支払いは返金不可能となっております。",
+    "welcome_desc_alt": "ここは公開グループです。タップして参加して下さい。",
+    "xuexi_payment_desc": "XUE XIでお支払いいただき、プライベートグループに参加して下さい。",
+    "xuexi_payment_title": "支払って参加"
+  },
+  "profit": {
+    "claim_amount": "受取数量",
+    "empty": "利益がありません",
+    "hint_distribute": "利益は月に一度確定します。所得税を差し引いた後、毎月1日にあなたのウォレットに送金されます。",
+    "hint_kyc_required": "利益を受け取るには、KYCを完了する必要があります。",
+    "tax_amount": "税数量",
+    "title": "利益",
+    "to_kyc": "KYCを行う",
+    "total_amount": "合計数量"
+  },
   "qr": {
     "scan_hint": "Mixinメッセンジャー/Fox.ONEでスキャン"
   },
-
-  "annual": {
-    "title": "記念日メダル",
-    "description": "期間: {days}日, {joinedAt}に参加"
+  "renew": {
+    "paid_confirm_dialog_text": "お支払いがお済みの場合、「支払い済み」をタップして下さい。注文処理には3から5分ほどかかります。",
+    "paid_confirm_dialog_title": "お支払いはお済みですか？",
+    "title": "更新",
+    "welcome": "更新のお知らせ",
+    "welcome_desc": "更新をすると、グループのメンバーシップ期間を延長することができます。更新は何度でもすることができますが、お支払いは返金ができないのでご注意下さい。"
   },
-
-  "profit": {
-    "title": "利益",
-    "empty": "利益がありません",
-    "total_amount": "合計数量",
-    "tax_amount": "税数量",
-    "claim_amount": "受取数量",
-    "hint_distribute": "利益は月に一度確定します。所得税を差し引いた後、毎月1日にあなたのウォレットに送金されます。",
-    "hint_kyc_required": "利益を受け取るには、KYCを完了する必要があります。",
-    "to_kyc": "KYCを行う"
+  "stream": {
+    "download_btn": "登録方法ガイド",
+    "download_hint": "Mixinメッセンジャーをダウンロードして、グループチャットに参加",
+    "input_placeholder": "チャット",
+    "status_disabled": "ストリーミングがありません",
+    "status_enabled": "ストリーミング",
+    "title": "ストリーミング",
+    "websocket_error_hint": "チャットサーバーに接続できませんでした"
   },
-
-  "back_to_app": {
-    "back_btn": "アプリに戻る",
-    "title": "完了。タップしてアプリに戻る。"
+  "stream_settings": {
+    "gen_publish_url_btn": "公開URLを発行する",
+    "notify_btn": "お知らせ",
+    "operations_title": "管理",
+    "publish_url_hint": "このURLは5分間で期限切れとなります。OBS設定でご利用下さい。",
+    "publish_url_label": "URLを公開する",
+    "start_stream_btn": "ストリーミングを始める",
+    "status_disabled_text": "ストリーミングが無効",
+    "status_enabled_text": "ストリーミングが有効",
+    "status_title": "ストリーミングの状態",
+    "stop_stream_btn": "ストリーミングをやめる",
+    "title": "ストリーミング設定"
   },
-
-  "error_page": {
-    "title": "おっと、エラーが発生しました。",
-    "code": "コード:",
-    "message": "メッセージ:",
-    "refresh_btn": "更新",
-    "back_home_btn": "ホームに戻る"
+  "tip_rank": {
+    "title": "ランク"
   },
-
-  "errmsg": {
-    "amount_too_small": "数量が少なすぎます"
-  },
-
-  "errorcode.-1": "ネットワークエラー",
-  "errorcode.404": "リソースエラー",
-  "errorcode.fallback": "ネットワークエラー"
+  "tip_send": {
+    "amount_placeholder": "kudo数量",
+    "min_amount_hint": "最低でも{min}{symbol}を送ってください",
+    "send_btn": "Kudoを送る",
+    "title": "Kudo",
+    "users_title": "kudoの送信相手",
+    "view_rank_btn": "ランクを確認する"
+  }
 }

@@ -1,468 +1,489 @@
 {
-  "hello": "Hello",
-
-  "common": {
-    "role_admin": "Admin",
-    "role_lecturer": "Lecturer",
-    "role_user": "Member",
-    "vault-master": "Master",
-    "vault-profit": "Profit",
-    "vault-bonus": "Bonus",
-    "vault-tax": "Tax",
-    "group_mode_free": "Chit-Chat",
-    "group_mode_mute": "Mute",
+  "admin": {
+    "audio_message_enabled_label": "Allow Audio",
+    "chat_rate_limit_label": "Message rate limit",
+    "chat_rate_limit_value": "{n} msg/min",
+    "chat_title": "Chat",
+    "contact_message_enabled_label": "Allow Contact Card",
+    "course_enabled_label": "Enable Course Replay",
+    "course_title": "Course Replay",
+    "data_message_enabled_label": "Allow Files",
+    "group_mode_chitchat": "Chit-chat",
+    "group_mode_chitchat_text": "Everyone is chatting in this mode.",
+    "group_mode_disabled_hint": "Currently in the live streaming, please stop the streaming and change the group chat mode",
+    "group_mode_goto_stream_sheet_btn": "Streaming Status",
+    "group_mode_label": "Chat Mode",
     "group_mode_lecture": "Lecture",
-    "view": "View",
-    "copy": "Copy",
-    "share": "Share",
-    "ok": "Okay",
-    "cancel": "Cancel",
-    "paid": "Paid",
-    "edit": "Edit",
-    "delete": "Delete",
-    "kyc_status_text_0": "Unverified",
-    "kyc_status_text_1": "Pending",
-    "kyc_status_text_2": "Verified",
-    "kyc_status_text_error": "Failed",
-    "scan_to_join": "Scan To Join"
+    "group_mode_lecture_text": "Only lecturers speak.",
+    "group_mode_mute": "Mute",
+    "group_mode_mute_text": "Lecturers speak, others send kudos and luckycoin.",
+    "image_message_enabled_label": "Allow Images",
+    "invitation_enabled_label": "Enable Invitation",
+    "invitation_title": "Invitation",
+    "link_message_enabled_label": "Allow Links",
+    "luckycoin_enabled_label": "Enable Luckycoin",
+    "luckycoin_max_count_label": "Max shares",
+    "luckycoin_max_count_value": "{n} shares",
+    "luckycoin_min_value_label": "Min amount per pack",
+    "luckycoin_min_value_value": "{n} USD",
+    "luckycoin_title": "Luckycoin",
+    "permanent_invitation_code_enable_label": "Permanent Invitation Code",
+    "save_btn": "Save",
+    "settings_title": "Admin Setting",
+    "stat_member_count_paid": "Paid",
+    "stat_member_count_pending": "Pending",
+    "stat_member_count_unverified": "Unverified",
+    "stat_title": "Member Stat",
+    "status_title": "Group Status",
+    "sticker_message_enabled_label": "Allow Stickers",
+    "stream_disabled_hint": "Currently in the lecture mode, please switch the mode and start streaming",
+    "stream_enabled_label": "Enable Stream",
+    "stream_goto_group_mode_sheet_btn": "View Group Mode",
+    "stream_settings": "Stream Settings",
+    "stream_status_label": "Stream status",
+    "stream_status_value_disabled": "No Streaming",
+    "stream_status_value_enabled": "Streaming",
+    "stream_title": "Stream",
+    "tip_enabled_label": "Enable Kudos",
+    "tip_min_value_label": "Min amount per kudos",
+    "tip_min_value_value": "{n} USD",
+    "tip_title": "Kudos",
+    "title": "Admin Dashboard",
+    "vaults_label": "Vault Management",
+    "video_message_enabled_label": "Allow Video"
   },
-
+  "admin_vault_withdrawal": {
+    "label_1": "Withdraw",
+    "label_2": "from",
+    "label_3": "to",
+    "pin_label": "6 digits PIN",
+    "title": "Withdrawal",
+    "withdraw_btn": "Withdraw",
+    "withdraw_hint": "All assets will be sent to specified user's Mixin Wallet"
+  },
+  "admin_vaults": {
+    "assets_title": "Assets",
+    "title": "Vault Managment",
+    "vault_hint": "You can only withdraw from Profit Vault",
+    "vaults_title": "Vaults"
+  },
+  "annual": {
+    "description": "Age: {days} days, joined at {joinedAt}",
+    "title": "Anniversary Medal"
+  },
+  "back_to_app": {
+    "back_btn": "Back to App",
+    "title": "All done. Tap the button back to App"
+  },
   "badges.anniversary_1": "1 Year",
-
-  "com.course_item.duration_sec": "{n} sec",
-  "com.course_item.duration_min": "{n} minutes",
-  "com.course_item.action_publish": "Publish",
-  "com.course_item.action_unpublish": "Unpublish",
-  "com.course_item.action_edit": "Edit",
-  "com.course_item.action_open": "Enable Public Access",
-  "com.course_item.action_close": "Disable Public Access",
-  "com.course_item.status_unpublished": "Unpublish",
-  "com.course_item.status_open": "Public Access",
-
-  "com.invited_relation_panel.invited_title": "Invited by",
-  "com.invited_relation_panel.delete": "Delete",
-  "com.invited_relation_panel.my_invitation_title": "My invitation code",
-  "com.invited_relation_panel.avaiable_invitation": "{n} available invitation codes",
-
-  "com.luckycoin_cover.hint": "Luckycoin Pack from {name}",
-  "com.luckycoin_cover.open_btn": "Open",
-  "com.luckycoin_view.participants_title": "Claimed: {n}/{count} packs, {m}/{amount} {symbol}",
-  "com.luckycoin_view.my_claim_title": "My luckycoin",
-  "com.luckycoin_view.lottery_badge": "Luckiest",
-
-  "com.course_message_item.loading_process": "Buffer：{n}%",
-
-  "com.course_kudo_section.button_text": "Send Kudo",
-
-  "com.course_intro_section.title": "This course is from this group:",
-  "com.course_intro_section.button_text": "View the group",
-
-  "com.invitation_share_card.inviter_prefix": "{name} invite you to join",
-  "com.invitation_share_card.inviter_code": "invitation code",
-  "com.invitation_share_card.save_hint": "Scan the QRCode for instructions",
-
   "com.chat_area.empty_hint": "No messages yet",
-
-  "com.member_list.age_hint": "Age: {time} days",
-  "com.member_list.expired_hint": "Expire: {time}",
-
-  "com.coupon_item.type_discount": "Discount",
-  "com.coupon_item.type_voucher": "Voucher",
   "com.coupon_item.amount_text_discount": "{amount}折",
   "com.coupon_item.amount_text_discount_alt": "{amount} Off",
   "com.coupon_item.amount_text_voucher": "{amount}",
-  "com.coupon_item.detail": "Detail",
   "com.coupon_item.btn": "Use the coupon",
+  "com.coupon_item.detail": "Detail",
   "com.coupon_item.expired_hint": "Expire at {time}",
-
-  "com.payment_panel.period_title": "Membership duration",
-  "com.payment_panel.period_hint": "Pay for many years may get discounts, please consult your inviter.",
-  "com.payment_panel.period_label": "Duration",
+  "com.coupon_item.type_discount": "Discount",
+  "com.coupon_item.type_voucher": "Voucher",
+  "com.course_access_sheet.is_open": "Set the course as public?",
+  "com.course_access_sheet.is_published": "Publish the course?",
+  "com.course_access_sheet.open_hint": "Send the public course card to the chat, and everyone (whether in the group or not) will watch it.",
+  "com.course_access_sheet.open_title": "Set as public",
+  "com.course_access_sheet.publish_hint": "Send course card to the chat. All members in the group will watch it.",
+  "com.course_access_sheet.publish_title": "Publish",
+  "com.course_access_sheet.send_btn": "Send",
+  "com.course_intro_section.button_text": "View the group",
+  "com.course_intro_section.title": "This course is from this group:",
+  "com.course_item.action_edit": "Edit",
+  "com.course_item.action_edit_access": "Edit Access",
+  "com.course_item.duration_min": "{n} minutes",
+  "com.course_item.duration_sec": "{n} sec",
+  "com.course_item.status_open": "Public Access",
+  "com.course_item.status_unpublished": "Unpublish",
+  "com.course_item.type_other": "Record",
+  "com.course_item.type_streaming": "Live Record",
+  "com.course_kudo_section.button_text": "Send Kudo",
+  "com.course_message_item.loading_process": "Buffer：{n}%",
+  "com.insufficient_link.buy_way_sheet_hint": "Powered by Fox.ONE",
+  "com.insufficient_link.buy_way_sheet_item_1": "Exchange with cryptocurrency",
+  "com.insufficient_link.buy_way_sheet_item_2": "Buy with Fiat",
+  "com.insufficient_link.buy_way_sheet_item_text_1": "Convert others into {symbol}",
+  "com.insufficient_link.buy_way_sheet_item_text_2": "Buy {symbol} from others",
+  "com.insufficient_link.buy_way_sheet_title": "Select an approach",
+  "com.insufficient_link.insufficient_asset_btn": "If you don’t have {symbol}, tap here to buy",
+  "com.insufficient_link.kyc_dialog_btn": "Start verify",
+  "com.insufficient_link.kyc_dialog_text": "The first purchase of cryptocurrency requires verification, and you need to prepare a RPC mainland ID card.",
+  "com.insufficient_link.kyc_dialog_title": "Verification Needed",
+  "com.invitation_share_card.inviter_code": "invitation code",
+  "com.invitation_share_card.inviter_prefix": "{name} invite you to join",
+  "com.invitation_share_card.save_hint": "Scan the QRCode for instructions",
+  "com.invited_relation_panel.avaiable_invitation": "{n} available invitation codes",
+  "com.invited_relation_panel.delete": "Delete",
+  "com.invited_relation_panel.invited_title": "Invited by",
+  "com.invited_relation_panel.my_invitation_title": "My invitation code",
+  "com.luckycoin_cover.hint": "Luckycoin Pack from {name}",
+  "com.luckycoin_cover.open_btn": "Open",
+  "com.luckycoin_view.lottery_badge": "Luckiest",
+  "com.luckycoin_view.my_claim_title": "My luckycoin",
+  "com.luckycoin_view.participants_title": "Claimed: {n}/{count} packs, {m}/{amount} {symbol}",
+  "com.member_list.age_hint": "Age: {time} days",
+  "com.member_list.expired_hint": "Expire: {time}",
+  "com.payment_panel.copy-address": "Copy Address",
+  "com.payment_panel.coupons_sheet_title": "Select a coupon",
+  "com.payment_panel.estimated_hint": "Since the price of cryptocurrency will fluctuate rapidly, the actual payment price may change.",
+  "com.payment_panel.get_payment_fail": "Fail to get payment information",
+  "com.payment_panel.open-in-browser": "Open in Browser",
+  "com.payment_panel.pay_alipay": "Pay via Alipay",
+  "com.payment_panel.pay_crypto": "Pay",
+  "com.payment_panel.pay_method_alipay": "Alipay",
+  "com.payment_panel.pay_method_alipay.hint": "Take Screenshot and scan with <b>AliPay</b>",
+  "com.payment_panel.pay_method_crypto": "Crypto",
+  "com.payment_panel.pay_method_wechat": "WeChat",
+  "com.payment_panel.pay_method_wechat.hint": "Take Screenshot and scan with <b>Browser</b>",
+  "com.payment_panel.pay_none": "Pay",
+  "com.payment_panel.pay_successfully": "Paid Successfully",
+  "com.payment_panel.pay_wechat": "Pay via WeChat",
   "com.payment_panel.period_1_year": "One Year",
   "com.payment_panel.period_2_year": "Two Years",
   "com.payment_panel.period_3_year": "Three Years",
   "com.payment_panel.period_5_year": "Five Years",
   "com.payment_panel.period_7_year": "Seven Years",
-  "com.payment_panel.estimated_hint": "Since the price of cryptocurrency will fluctuate rapidly, the actual payment price may change.",
-  "com.payment_panel.select_title": "Pay via ...",
-  "com.payment_panel.pay_method_crypto": "Crypto",
-  "com.payment_panel.pay_method_wechat": "WeChat",
-  "com.payment_panel.pay_method_alipay": "Alipay",
-  "com.payment_panel.pay_method_wechat.hint": "Take Screenshot and scan with <b>WeChat</b>",
-  "com.payment_panel.pay_method_alipay.hint": "Take Screenshot and scan with <b>AliPay</b>",
-  "com.payment_panel.pay_crypto": "Pay",
-  "com.payment_panel.pay_alipay": "Pay via Alipay",
-  "com.payment_panel.pay_wechat": "Pay via WeChat",
-  "com.payment_panel.pay_none": "Pay",
+  "com.payment_panel.period_hint": "Pay for many years may get discounts, please consult your inviter.",
+  "com.payment_panel.period_label": "Duration",
+  "com.payment_panel.period_title": "Membership duration",
   "com.payment_panel.price_label": "Price: ",
   "com.payment_panel.price_value": "{price} {unit}",
   "com.payment_panel.price_value_estimated": "≈{price} {unit}",
-  "com.payment_panel.kyc_dialog_title": "Verification Needed",
-  "com.payment_panel.kyc_dialog_text": "The first purchase of cryptocurrency requires verification, and you need to prepare a RPC mainland ID card.",
-  "com.payment_panel.kyc_dialog_btn": "Start verify",
-  "com.payment_panel.insufficient_asset_btn": "If you don’t have {symbol}, tap here to buy",
-  "com.payment_panel.buy_way_sheet_hint": "Powered by Fox.ONE",
-  "com.payment_panel.buy_way_sheet_title": "Select an approach",
-  "com.payment_panel.buy_way_sheet_item_1": "Exchange with cryptocurrency",
-  "com.payment_panel.buy_way_sheet_item_text_1": "Convert others into {symbol}",
-  "com.payment_panel.buy_way_sheet_item_2": "Buy with Fiat",
-  "com.payment_panel.buy_way_sheet_item_text_2": "Buy {symbol} from others",
+  "com.payment_panel.select_title": "Pay via ...",
   "com.payment_panel.use_coupon": "Coupons",
-  "com.payment_panel.coupons_sheet_title": "Select a coupon",
-  "com.payment_panel.get_payment_fail": "Fail to get payment information",
-  "com.payment_panel.pay_successfully": "Paid Successfully",
-
+  "com.stream_control_sheet.copy_hint": "Copy and paste this link into streaming software (such as OBS) to start streaming.",
+  "com.stream_control_sheet.notify_btn": "Notify",
+  "com.stream_control_sheet.notify_hint": "If everything goes well, send a streaming notification to the chat.",
+  "com.stream_control_sheet.operations_title": "Operations",
+  "com.stream_control_sheet.preview_btn": "Preview",
+  "com.stream_control_sheet.publish_url_hint": "The URL will expire in 5 mins. Please use it in OBS settings.",
+  "com.stream_control_sheet.start_hint": "Tap `Start Streaming` to start live streaming, start live streaming recording, and generate push links.",
+  "com.stream_control_sheet.start_stream_btn": "Start Streaming",
+  "com.stream_control_sheet.status_disabled_text": "Stream is disabled",
+  "com.stream_control_sheet.status_enabled_text": "Stream is enabled",
+  "com.stream_control_sheet.stop_hint": "Tap `Stop Streaming` to generate live playback, please check it in the `courses`.",
+  "com.stream_control_sheet.stop_stream_btn": "Stop Stream",
+  "com.video_player.error_hint_no_stream": "No live events",
+  "com.video_player.error_hint_no_stream_or_no_conn": "No live events or no connection",
+  "common": {
+    "cancel": "Cancel",
+    "copy": "Copy",
+    "delete": "Delete",
+    "edit": "Edit",
+    "fold": "Fold",
+    "group_mode_free": "Chit-Chat",
+    "group_mode_lecture": "Lecture",
+    "group_mode_mute": "Mute",
+    "kyc_status_text_0": "Unverified",
+    "kyc_status_text_1": "Pending",
+    "kyc_status_text_2": "Verified",
+    "kyc_status_text_error": "Failed",
+    "ok": "Okay",
+    "paid": "Paid",
+    "role_admin": "Admin",
+    "role_lecturer": "Lecturer",
+    "role_user": "Member",
+    "scan_to_join": "Scan To Join",
+    "share": "Share",
+    "unfold": "Expand",
+    "vault-bonus": "Bonus",
+    "vault-master": "Master",
+    "vault-profit": "Profit",
+    "vault-tax": "Tax",
+    "view": "View"
+  },
+  "coupon": {
+    "title": "Coupon Detail"
+  },
+  "coupons": {
+    "empty_hint": "No coupons",
+    "title": "My coupons"
+  },
+  "course_detail": {
+    "title": "Course Replay"
+  },
+  "course_index": {
+    "empty_hint": "No replay record.",
+    "filter_all_speakers": "All speakers",
+    "filter_all_tags": "All tags",
+    "search_placeholder": "Search title or description",
+    "title": "Courses"
+  },
+  "errmsg": {
+    "amount_too_small": "Amount too small"
+  },
+  "error_page": {
+    "back_home_btn": "Back Home",
+    "code": "Code:",
+    "message": "Message:",
+    "path": "Route:",
+    "refresh_btn": "Refresh",
+    "title": "Oops, an error occurred."
+  },
+  "errorcode.-1": "NETWORK ERROR",
+  "errorcode.404": "CANNOT FIND RESOURCE",
+  "errorcode.fallback": "NETWORK ERROR",
+  "hello": "Hello",
   "home": {
-    "announcement_dialog_title": "Edit announcement",
-    "edit_announcement_btn": "Edit",
-    "welcome": "Hi {role} {name}",
     "announcement": "Announcement",
-    "subscribed_btn": "Subscribed",
-    "unsubscribed_btn": "Unsubscribed",
+    "announcement_dialog_title": "Edit announcement",
     "builtin_feat_title": "Group Operations",
-    "feat_tip": "Kudos",
-    "feat_luckycoin": "LuckyCoin",
-    "feat_invitation": "Invitation",
-    "feat_course": "Replay",
-    "feat_stream": "Stream",
+    "edit_announcement_btn": "Edit",
     "feat_coupon": "Coupons",
+    "feat_course": "Replay",
     "feat_income": "Rewards",
-    "unsub_title": "UnSubscribed",
+    "feat_invitation": "Invitation",
+    "feat_luckycoin": "LuckyCoin",
+    "feat_stream": "Stream",
+    "feat_tip": "Kudos",
+    "subscribed_btn": "Subscribed",
+    "unsub_cancel_btn": "I'll think about it",
     "unsub_description": "After leaving the subscription, you will no longer receive group messages. Are you sure to cancel the subscription?",
     "unsub_ok_btn": "UnSubscribed",
-    "unsub_cancel_btn": "I'll think about it"
+    "unsub_title": "UnSubscribed",
+    "unsubscribed_btn": "Unsubscribed",
+    "welcome": "Hi {role} {name}"
   },
-
-  "welcome": {
-    "title": "Welcome to {name}"
+  "invitation_public": {
+    "active_at_label": "Last online",
+    "code_label": "Invitation code",
+    "empty_hint": "There are currently no active members providing invitation codes.",
+    "title": "Public invitation codes",
+    "welcome": "Invitation code from members",
+    "welcome_desc": "Show you the invitation codes of recently active group members. It is recommended that you contact the other party before use. If there is a problem, it is also convenient to seek help from the other party."
   },
-
-  "guide": {
-    "title": "Join the group"
-  },
-
   "invitations": {
-    "edit_greeting_dialog_title": "Leave words to friends",
-    "my_poster_title": "My Poster",
-    "my_invitations_title": "My Invitations",
-    "permanetn_invitation_title": "My permanent invitation code",
-    "generate_posters_label": "Generate Invitation Posters",
     "avaiable_invitations": "{n} Invitation Codes",
-    "used_invitations": "{n} Invitees",
+    "edit_greeting_dialog_title": "Leave words to friends",
     "gen_post_btn": "Generate Post",
-    "title": "Invitations"
+    "generate_posters_label": "Generate Invitation Posters",
+    "my_invitations_title": "My Invitations",
+    "my_poster_title": "My Poster",
+    "permanetn_invitation_title": "My permanent invitation code",
+    "title": "Invitations",
+    "used_invitations": "{n} Invitees"
   },
-
-  "invitations_invitees": {
-    "view": "View",
-    "user_state_paid": "Joined",
-    "user_state_unverified": "Unverified",
-    "user_state_pending": "Pending",
-    "empty_hint": "No invitee",
-    "title": "My Invitees"
-  },
-
   "invitations_codes": {
     "empty_hint": "No invitation code",
     "title": "My Codes"
   },
-
+  "invitations_invitees": {
+    "empty_hint": "No invitee",
+    "title": "My Invitees",
+    "user_state_paid": "Joined",
+    "user_state_pending": "Pending",
+    "user_state_unverified": "Unverified",
+    "view": "View"
+  },
   "invitations_share": {
-    "hint": "Save the picture to album",
     "general_share_summary": "Join the group and be together",
+    "hint": "Save the picture to album",
     "title": "Share"
   },
-
-  "invitation_public": {
-    "empty_hint": "There are currently no active members providing invitation codes.",
-    "welcome": "Invitation code from members",
-    "welcome_desc": "Show you the invitation codes of recently active group members. It is recommended that you contact the other party before use. If there is a problem, it is also convenient to seek help from the other party.",
-    "code_label": "Invitation code",
-    "active_at_label": "Last online",
-    "title": "Public invitation codes"
-  },
-
-  "admin_vaults": {
-    "vaults_title": "Vaults",
-    "assets_title": "Assets",
-    "vault_hint": "You can only withdraw from Profit Vault",
-    "title": "Vault Managment"
-  },
-
-  "admin_vault_withdrawal": {
-    "label_1": "Withdraw",
-    "label_2": "from",
-    "label_3": "to",
-    "withdraw_hint": "All assets will be sent to specified user's Mixin Wallet",
-    "pin_label": "6 digits PIN",
-    "withdraw_btn": "Withdraw",
-    "title": "Withdrawal"
-  },
-
-  "admin": {
-    "title": "Admin Dashboard",
-    "image_message_enabled_label": "Allow Images",
-    "audio_message_enabled_label": "Allow Audio",
-    "video_message_enabled_label": "Allow Video",
-    "data_message_enabled_label": "Allow Files",
-    "sticker_message_enabled_label": "Allow Stickers",
-    "contact_message_enabled_label": "Allow Contact Card",
-    "link_message_enabled_label": "Allow Links",
-    "luckycoin_enabled_label": "Enable Luckycoin",
-    "tip_enabled_label": "Enable Kudos",
-    "invitation_enabled_label": "Enable Invitation",
-    "course_enabled_label": "Enable Course Replay",
-    "stream_enabled_label": "Enable Stream",
-    "stream_title": "Stream",
-    "stream_settings": "Stream Settings",
-    "luckycoin_title": "Luckycoin",
-    "luckycoin_min_value_label": "Min amount per pack",
-    "luckycoin_min_value_value": "{n} USD",
-    "luckycoin_max_count_label": "Max shares",
-    "luckycoin_max_count_value": "{n} shares",
-    "tip_title": "Kudos",
-    "tip_min_value_label": "Min amount per kudos",
-    "tip_min_value_value": "{n} USD",
-    "invitation_title": "Invitation",
-    "course_title": "Course Replay",
-    "vaults_label": "Vault Management",
-    "group_mode_label": "Chat Mode",
-    "group_mode_chitchat": "Chit-chat",
-    "group_mode_mute": "Mute",
-    "group_mode_lecture": "Lecture",
-    "group_mode_chitchat_text": "Everyone is chatting in this mode.",
-    "group_mode_mute_text": "Lecturers speak, others send kudos and luckycoin.",
-    "group_mode_lecture_text": "Only lecturers speak.",
-    "chat_title": "Chat",
-    "chat_rate_limit_label": "Message rate limit",
-    "chat_rate_limit_value": "{n} msg/min",
-    "save_btn": "Save",
-    "stat_title": "Member Stat",
-    "stat_member_count_paid": "Paid",
-    "stat_member_count_pending": "Pending",
-    "stat_member_count_unverified": "Unverified"
-  },
-
-  "tip_rank": {
-    "title": "Rank"
-  },
-
-  "tip_send": {
-    "title": "Kudos",
-    "amount_placeholder": "Amount of kudos",
-    "users_title": "Who you wanna send kudos",
-    "send_btn": "Send Kudos",
-    "min_amount_hint": "Please send {min} {symbol} at least",
-    "view_rank_btn": "View Rank"
-  },
-
-  "luckycoin": {
-    "title": "Lucky Coin"
-  },
-
-  "luckycoin_pack": {
-    "title": "Prepare Luckycoin",
-    "amount_placeholder": "Assets amount",
-    "mode_random_title": "Random",
-    "mode_random_description": "Members get random amount",
-    "mode_ideal_title": "Ideal",
-    "mode_ideal_description": "Members get same amount",
-    "mode_contribution_title": "Contribution",
-    "mode_contribution_description": "High contributed members get more",
-    "shares_hint": "Max: {max} shares",
-    "shares_placeholder": "How many shares",
-    "greeting_placeholder": "Greeting",
-    "greeting_default": "Long BTC, short the world",
-    "min_amount_hint": "Please pack {min} {symbol} at least",
-    "send_btn": "Send"
-  },
-
-  "course_detail": {
-    "title": "Course Replay"
-  },
-
-  "course_index": {
-    "title": "Courses",
-    "search_placeholder": "Search title or description",
-    "filter_all_speakers": "All speakers",
-    "filter_all_tags": "All tags",
-    "empty_hint": "No replay record."
-  },
-
-  "member_index": {
-    "tab_ops": "Operators",
-    "tab_search": "Search",
-    "tab_member": "Members",
-    "admin_title": "Admin",
-    "lecturer_title": "Lecturer",
-    "search_placeholder": "Search Name or ID",
-    "title": "Members"
-  },
-
-  "member": {
-    "talk_btn": "Talk",
-    "tip_btn": "Send kudos",
-    "block_btn": "Block",
-    "unblock_btn": "Unblock",
-    "kick_btn": "Kick",
-    "set_role_btn": "Set role",
-    "state_blocked": "Blocked",
-    "state_paid": "Joined",
-    "state_pending": "Unpaid",
-    "state_unverified": "Unverified",
-    "state_subscribed": "Subscribed",
-    "state_unsubscribed": "Unsubscribed",
-    "label_joined": "Joined at",
-    "label_expire": "Expire at",
-    "label_role": "Role",
-    "label_state": "State",
-    "value_age": "Age: {time} days",
-    "title": "Member Info"
-  },
-
-  "me": {
-    "badge_title": "Badges",
-    "verification_label": "Verification Status",
-    "title": "Me",
-    "expired_at_title": "Membership will expire at {date}",
-    "edit_profile_dialog_title": "Edit Profile",
-    "edit_profile_btn": "Edit Profile",
-    "label_group_nickname": "Group Nickname",
-    "label_group_bio": "Group Bio",
-    "renew_btn": "Renew"
-  },
-
-  "pay": {
-    "title": "Join the Group",
-    "pay_and_join": "JOIN",
-    "welcome": "Welcome",
-    "welcome_desc": "It's a private group, please follow the instructions to join it. The payment is non-refundable.",
-    "welcome_desc_alt": "It's a public group, tap the button to join",
-    "join_btn": "Comfirm and Join",
-    "invitation_btn": "Apply",
-    "invite_code_title": "Please type invitation code first.",
-    "invite_title": "Invitation code",
-    "invite_placeholder": "Your Invitation code",
-    "invite_desc": "Please ask your inviter for the invitation code, or tap here to view the codes provided by the group members.",
-    "xuexi_payment_title": "Pay and Join",
-    "xuexi_payment_desc": "You neet to pay at XUE XI to join this private group.",
-    "method_crypto": "Pay with Crypto",
-    "method_crypto_desc": "You neet to pay some coins to join this private group.",
-    "select_assets": "Select Assets",
-    "success_toast": "You have joined the group.",
-    "method_coupon": "Apply a Coupon Code",
-    "coupon_placeholder": "Coupon Code",
-    "invitation_code_unavailable": "Incorrect invitation code",
-    "correct_coupon_code_toast": "Coupon code applied",
-    "incorrect_coupon_code_toast": "Incorrect coupon code",
-    "paid_confirm_dialog_title": "Has it been paid?",
-    "paid_confirm_dialog_text": "If you have already paid, please click PAID. It may take us 3 to 5 minutes to process your order."
-  },
-
   "kyc": {
-    "prepare_title": "Prepare for verification",
-    "qrcode_text": "If you can not complete the verification, please scan the QrCode to try again.",
-    "qrcode_text_alt": "<strong>如果你使用锤子或者坚果手机，建议插上电源线，在支付宝中扫码进行实名验证。</strong>",
+    "button_label_0": "Start",
+    "button_label_1": "Re-Submit",
+    "button_label_2": "Back",
+    "button_label_error": "Restart",
+    "hint_error_line_1": "Reason: {reason}",
+    "hint_error_line_2": "Code：{code}",
     "hint_init_line_1": "To continue to use this service, please perform the verification. Please make the following preparations:",
     "hint_init_line_2": "1. Identity Card of RPC",
     "hint_init_line_3": "2. Make sure the camera and microphone permissions are turned on",
     "hint_pending_line_1": "The audit is conducted by a third party and may take 15 minutes to complete.",
     "hint_pending_line_2": "After the review is completed, you will receive a notification.",
-    "hint_error_line_1": "Reason: {reason}",
-    "hint_error_line_2": "Code：{code}",
-    "result_line_1": "Name: {name}",
-    "result_line_2": "ID: {id}",
-    "notice_title": "Notice",
     "notice_line_1": "Currently, only mainland residents are supported to complete verification.",
     "notice_line_2": "Verification requires access to the phone camera and microphone. Make sure that these two permissions are turned on.",
     "notice_line_3": "Verification is done by third-party services (such as FaceID), and your personal information is only used for verification.",
     "notice_line_4": "Your personal information will be encrypted and properly processed, and we will not disclose or sell your personal information to other third parties.",
     "notice_line_5": "如果你使用锤子或者坚果手机，建议截屏实名验证的二维码，然后插上电源线，在支付宝或者微信中扫码进行实名验证。",
-    "button_label_0": "Start",
-    "button_label_1": "Re-Submit",
-    "button_label_2": "Back",
-    "button_label_error": "Restart",
+    "notice_title": "Notice",
+    "prepare_title": "Prepare for verification",
+    "qrcode_text": "If you can not complete the verification, please scan the QrCode to try again.",
+    "qrcode_text_alt": "<strong>如果你使用锤子或者坚果手机，建议插上电源线，在支付宝中扫码进行实名验证。</strong>",
+    "result_line_1": "Name: {name}",
+    "result_line_2": "ID: {id}",
     "title": "Verification"
   },
-
-  "renew": {
-    "title": "Renewal",
-    "welcome": "Renewal notice",
-    "welcome_desc": "Each renewal will extend the group membership, and you can extend the period by renewal multiple times. Renewal is non-refundable.",
+  "luckycoin": {
+    "title": "Lucky Coin"
+  },
+  "luckycoin_pack": {
+    "amount_placeholder": "Assets amount",
+    "greeting_default": "Long BTC, short the world",
+    "greeting_placeholder": "Greeting",
+    "min_amount_hint": "Please pack {min} {symbol} at least",
+    "mode_contribution_description": "High contributed members get more",
+    "mode_contribution_title": "Contribution",
+    "mode_ideal_description": "Members get same amount",
+    "mode_ideal_title": "Ideal",
+    "mode_random_description": "Members get random amount",
+    "mode_random_title": "Random",
+    "send_btn": "Send",
+    "shares_hint": "Max: {max} shares",
+    "shares_placeholder": "How many shares",
+    "title": "Prepare Luckycoin"
+  },
+  "me": {
+    "badge_title": "Badges",
+    "edit_profile_btn": "Edit Profile",
+    "edit_profile_dialog_title": "Edit Profile",
+    "expired_at_title": "Membership will expire at {date}",
+    "label_group_bio": "Group Bio",
+    "label_group_nickname": "Group Nickname",
+    "renew_btn": "Renew",
+    "title": "Me",
+    "verification_label": "Verification Status"
+  },
+  "member": {
+    "block_btn": "Block",
+    "kick_btn": "Kick",
+    "label_expire": "Expire at",
+    "label_joined": "Joined at",
+    "label_role": "Role",
+    "label_state": "State",
+    "set_role_btn": "Set role",
+    "state_blocked": "Blocked",
+    "state_paid": "Joined",
+    "state_pending": "Unpaid",
+    "state_subscribed": "Subscribed",
+    "state_unsubscribed": "Unsubscribed",
+    "state_unverified": "Unverified",
+    "talk_btn": "Talk",
+    "tip_btn": "Send kudos",
+    "title": "Member Info",
+    "unblock_btn": "Unblock",
+    "value_age": "Age: {time} days"
+  },
+  "member_index": {
+    "admin_title": "Admin",
+    "lecturer_title": "Lecturer",
+    "search_placeholder": "Search Name or ID",
+    "tab_member": "Members",
+    "tab_ops": "Operators",
+    "tab_search": "Search",
+    "title": "Members"
+  },
+  "onboarding_guide": {
+    "join_btn": "Join Now",
+    "sec_text_1": "{name} is a private group, you can join this group according to the guide. Speaking in the group, please abide by the group rules, and abide by local policies and regulations.",
+    "sec_text_2": "This group requires an invitation code to join. If you do not have an invitation code, please ask your inviter for it.",
+    "sec_text_3": "This group needs to pay a certain amount to join. Please select a payment method and you can join the group after payment.",
+    "sec_title_1": "Notice",
+    "sec_title_2": "Use the Invitations",
+    "sec_title_3": "Pay to Join",
+    "title": "Join the group"
+  },
+  "onboarding_install": {
+    "page_description": "with {count} group members",
+    "page_title": "Join {name}",
+    "step_text_1_1": "Download XUEXI App",
+    "step_text_1_2": "Download XUEXI App from App Store / Google Play",
+    "step_text_1_3": "for Chinese users, please download XUEXI App Apk and install manually",
+    "step_text_1_4": "Download APK (Please open the link in browser)",
+    "step_text_2_1": "Join the group",
+    "step_text_2_2": "Launch the App",
+    "step_text_2_3": "Search the group number:",
+    "step_text_2_4": "Tap `Add contacts`, and tap the bot button at the left top corner.",
+    "step_text_2_5": "Tap `Allow` button.",
+    "step_text_2_6": "Use the invitation code to join {name}",
+    "step_text_2_7": "You will see the welcome message. You may need to pay if it's a private group.",
+    "step_title_1": "Step 1",
+    "step_title_2": "Step 2",
+    "title": "A Guideline to Join"
+  },
+  "onboarding_welcome": {
+    "sec_text_1": "The group supports the course replay. All the courses in the group can be watched and replayed through this entry.",
+    "sec_text_2": "Sending some cryptocurrencies to the group, and all group members can receive it.",
+    "sec_text_3": "Sending Kudos to others and a color kudos message will be showed in the group. ",
+    "sec_title_1": "Course Replay",
+    "sec_title_2": "Luckycoin",
+    "sec_title_3": "Kudos",
+    "summary": "Please speak in a friendly manner in the group, abide by national policies and group rules, and do not exchange illegal content and conduct personal attacks in the group. The following is a brief introduction to the group functions.",
+    "title": "Welcome"
+  },
+  "pay": {
+    "correct_coupon_code_toast": "Coupon code applied",
+    "coupon_placeholder": "Coupon Code",
+    "incorrect_coupon_code_toast": "Incorrect coupon code",
+    "invitation_btn": "Apply",
+    "invitation_code_unavailable": "Incorrect invitation code",
+    "invite_code_title": "Please type invitation code first.",
+    "invite_desc": "Please ask your inviter for the invitation code, or tap here to view the codes provided by the group members.",
+    "invite_placeholder": "Your Invitation code",
+    "invite_title": "Invitation code",
+    "join_btn": "Comfirm and Join",
+    "method_coupon": "Apply a Coupon Code",
+    "method_crypto": "Pay with Crypto",
+    "method_crypto_desc": "You neet to pay some coins to join this private group.",
+    "paid_confirm_dialog_text": "If you have already paid, please click PAID. It may take us 3 to 5 minutes to process your order.",
     "paid_confirm_dialog_title": "Has it been paid?",
-    "paid_confirm_dialog_text": "If you have already paid, please click PAID. It may take us 3 to 5 minutes to process your order."
+    "pay_and_join": "JOIN",
+    "select_assets": "Select Assets",
+    "success_toast": "You have joined the group.",
+    "title": "Join the Group",
+    "welcome": "Welcome",
+    "welcome_desc": "It's a private group, please follow the instructions to join it. The payment is non-refundable.",
+    "welcome_desc_alt": "It's a public group, tap the button to join",
+    "xuexi_payment_desc": "You neet to pay at XUE XI to join this private group.",
+    "xuexi_payment_title": "Pay and Join"
   },
-
-  "coupons": {
-    "title": "My coupons",
-    "empty_hint": "No coupons"
+  "profit": {
+    "claim_amount": "Claim Amount",
+    "empty": "No Profit",
+    "hint_distribute": "The profit is settled once a month. After deducting income tax, the bonus will be distributed to your wallet on the 1st of the following month.",
+    "hint_kyc_required": "You need to complete the KYC before we can distribute the reward to your wallet.",
+    "tax_amount": "Tax Amount",
+    "title": "Profit",
+    "to_kyc": "To KYC",
+    "total_amount": "Total Amount"
   },
-
-  "coupon": {
-    "title": "Coupon Detail"
-  },
-
-  "stream": {
-    "title": "Stream",
-    "download_hint": "Download Mixin Messenger to join the group chat",
-    "download_btn": "Registration Guide",
-    "input_placeholder": "Chat here",
-    "status_enabled": "Streaming",
-    "status_disabled": "No Stream"
-  },
-
-  "stream_settings": {
-    "title": "Stream Settings",
-    "status_title": "Stream Status",
-    "status_enabled_text": "Stream is enabled",
-    "status_disabled_text": "Stream is disabled",
-    "start_stream_btn": "Start Stream",
-    "stop_stream_btn": "Stop Stream",
-    "operations_title": "Operations",
-    "gen_publish_url_btn": "Generate Publish URL",
-    "notify_btn": "Notify",
-    "publish_url_label": "Publish URL",
-    "publish_url_hint": "The URL will expire in 5 mins. Please use it in OBS settings."
-  },
-
   "qr": {
     "scan_hint": "Scan with Mixin Messenger or Fox.ONE"
   },
-
-  "annual": {
-    "title": "Anniversary Medal",
-    "description": "Age: {days} days, joined at {joinedAt}"
+  "renew": {
+    "paid_confirm_dialog_text": "If you have already paid, please click PAID. It may take us 3 to 5 minutes to process your order.",
+    "paid_confirm_dialog_title": "Has it been paid?",
+    "title": "Renewal",
+    "welcome": "Renewal notice",
+    "welcome_desc": "Each renewal will extend the group membership, and you can extend the period by renewal multiple times. Renewal is non-refundable."
   },
-
-  "profit": {
-    "title": "Profit",
-    "empty": "No Profit",
-    "total_amount": "Total Amount",
-    "tax_amount": "Tax Amount",
-    "claim_amount": "Claim Amount",
-    "hint_distribute": "The profit is settled once a month. After deducting income tax, the bonus will be distributed to your wallet on the 1st of the following month.",
-    "hint_kyc_required": "You need to complete the KYC before we can distribute the reward to your wallet.",
-    "to_kyc": "To KYC"
+  "stream": {
+    "download_btn": "Registration Guide",
+    "download_hint": "Download Mixin Messenger to join the group chat",
+    "input_placeholder": "Chat here",
+    "status_disabled": "No Stream",
+    "status_enabled": "Streaming",
+    "title": "Stream",
+    "websocket_error_hint": "Failed to connect to chat server"
   },
-
-  "back_to_app": {
-    "back_btn": "Back to App",
-    "title": "All done. Tap the button back to App"
+  "stream_settings": {
+    "gen_publish_url_btn": "!!公開URLを発行する",
+    "notify_btn": "!!お知らせ",
+    "operations_title": "!!管理",
+    "publish_url_hint": "!!このURLは5分間で期限切れとなります。OBS設定でご利用下さい。",
+    "publish_url_label": "!!URLを公開する",
+    "start_stream_btn": "!!ストリーミングを始める",
+    "status_disabled_text": "!!ストリーミングが無効",
+    "status_enabled_text": "!!ストリーミングが有効",
+    "status_title": "!!ストリーミングの状態",
+    "stop_stream_btn": "!!ストリーミングをやめる",
+    "title": "Stream Settings"
   },
-
-  "error_page": {
-    "title": "Oops, an error occurred.",
-    "code": "Code:",
-    "message": "Message:",
-    "refresh_btn": "Refresh",
-    "back_home_btn": "Back Home"
+  "tip_rank": {
+    "title": "Rank"
   },
-
-  "errmsg": {
-    "amount_too_small": "Amount too small"
-  },
-
-  "errorcode.-1": "NETWORK ERROR",
-  "errorcode.404": "CANNOT FIND RESOURCE",
-  "errorcode.fallback": "NETWORK ERROR"
+  "tip_send": {
+    "amount_placeholder": "Amount of kudos",
+    "min_amount_hint": "Please send {min} {symbol} at least",
+    "send_btn": "Send Kudos",
+    "title": "Kudos",
+    "users_title": "Who you wanna send kudos",
+    "view_rank_btn": "View Rank"
+  }
 }
