@@ -262,9 +262,12 @@
     "title": "课程回放"
   },
   "course_index": {
+    "edit_course_title": "编辑课程",
     "empty_hint": "当前没有课程",
     "filter_all_speakers": "所有讲师",
     "filter_all_tags": "所有标签",
+    "filter_group_speakers_title": "讲师名字",
+    "filter_group_tags_title": "课程标签",
     "filter_subtitle": "使用讲师名字和课程标签来过滤",
     "filter_title": "添加过滤条件",
     "search_placeholder": "搜索课程标题或描述",

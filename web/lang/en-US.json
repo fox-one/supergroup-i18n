@@ -262,9 +262,12 @@
     "title": "Course Replay"
   },
   "course_index": {
+    "edit_course_title": "Edit course info",
     "empty_hint": "No replay record.",
     "filter_all_speakers": "All speakers",
     "filter_all_tags": "All tags",
+    "filter_group_speakers_title": "Speakers",
+    "filter_group_tags_title": "Course tags",
     "filter_subtitle": "Filter by speakers' names and course tags",
     "filter_title": "Add Filters",
     "search_placeholder": "Search title or description",
